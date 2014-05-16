@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<people>
+  <person>
+    <firstname>Kate</firstname>
+    <lastname>Smith</lastname>
+    <age>27</age>
+  </person>
+  <person>
+    <firstname>Tom</firstname>
+    <lastname>Brown</lastname>
+    <age>30</age>
+  </person>
+  <person>
+    <firstname>Tim</firstname>
+    <lastname>Stone</lastname>
+    <age>36</age>
+  </person>
+  <person>
+    <firstname>Ann</firstname>
+    <lastname>Peterson</lastname>
+    <age>27</age>
+  </person>
+</people>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MEDIVHNA-PC</Machine>
+    <WindowsUser>柏岚</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>51574Cappuccinos.NewsOnMap</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>9DC67D870CAFE87603B0FD0A42750E26EEFBE8850A2BD76AD4C04D677928C2C0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>51574Cappuccinos.NewsOnMap_1.1.0.0_neutral__prcb7g4jatcsy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>51574Cappuccinos.NewsOnMap_prcb7g4jatcsy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>51574Cappuccinos.NewsOnMap</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=855A4A8E-3417-490F-84F7-809761AA72C6</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-16T06:35:02.235</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\地图2.exe">
+      <PackagePath>地图2.exe</PackagePath>
+      <Modified>2014-05-16T06:35:01.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+      <Modified>2014-02-19T08:13:13.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+      <Modified>2014-02-19T08:13:13.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-02-19T08:13:12.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-02-19T08:13:13.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-02-19T08:13:13.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2014-02-20T13:02:03.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2014-02-20T13:01:37.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2014-02-20T13:00:54.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-02-19T14:44:19.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <Modified>2014-02-20T12:39:07.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <Modified>2014-02-20T12:38:37.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <Modified>2014-02-20T12:39:30.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:18:48.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:57:18.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:55:13.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:53:17.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:41:26.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square150x150Logo.scale-140.png">
+      <PackagePath>Assets\Square150x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:39:07.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square150x150Logo.scale-180.png">
+      <PackagePath>Assets\Square150x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:38:37.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square150x150Logo.scale-80.png">
+      <PackagePath>Assets\Square150x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T12:39:30.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:05:31.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:15:43.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:15:24.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:16:10.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:05:53.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:05:31.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-20T13:05:09.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-02-08T10:02:25.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\地图2.jpg">
+      <PackagePath>地图2.jpg</PackagePath>
+      <Modified>2014-02-08T08:41:00.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-02-08T08:50:30.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-02-20T07:43:14.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\newpage1.xbf">
+      <PackagePath>newpage1.xbf</PackagePath>
+      <Modified>2014-02-20T11:22:18.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\地图2.xr.xml">
+      <PackagePath>地图2.xr.xml</PackagePath>
+      <Modified>2014-05-16T06:35:00.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柏岚\Desktop\NewsOnMap-Demo\NOM\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-16T06:35:01.945</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
