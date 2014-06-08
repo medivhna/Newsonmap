@@ -156,44 +156,44 @@ namespace 地图2.NOM_XamlTypeInfo
             _typeNameTable[4] = "Windows.UI.Xaml.UIElement";
             _typeNameTable[5] = "String";
             _typeNameTable[6] = "Double";
-            _typeNameTable[7] = "Bing.Maps.Location";
-            _typeNameTable[8] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[9] = "Bing.Maps.Search.SearchManager";
-            _typeNameTable[10] = "Bing.Maps.Traffic.TrafficManager";
-            _typeNameTable[11] = "Bing.Maps.Directions.DirectionsManager";
-            _typeNameTable[12] = "Bing.Maps.VenueMaps.VenueManager";
-            _typeNameTable[13] = "Bing.Maps.MapForegroundPosition";
-            _typeNameTable[14] = "System.Enum";
-            _typeNameTable[15] = "System.ValueType";
-            _typeNameTable[16] = "Boolean";
-            _typeNameTable[17] = "Bing.Maps.MapTileLayerCollection";
-            _typeNameTable[18] = "Bing.Maps.MapTileLayer";
+            _typeNameTable[7] = "Boolean";
+            _typeNameTable[8] = "Bing.Maps.MapViewRestriction";
+            _typeNameTable[9] = "System.Enum";
+            _typeNameTable[10] = "System.ValueType";
+            _typeNameTable[11] = "Bing.Maps.Search.SearchManager";
+            _typeNameTable[12] = "Bing.Maps.Traffic.TrafficManager";
+            _typeNameTable[13] = "Bing.Maps.Directions.DirectionsManager";
+            _typeNameTable[14] = "Bing.Maps.VenueMaps.VenueManager";
+            _typeNameTable[15] = "Bing.Maps.MapForegroundPosition";
+            _typeNameTable[16] = "Bing.Maps.MapTileLayerCollection";
+            _typeNameTable[17] = "Bing.Maps.MapTileLayer";
+            _typeNameTable[18] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[19] = "Bing.Maps.LocationRectCollection";
             _typeNameTable[20] = "Bing.Maps.LocationRect";
-            _typeNameTable[21] = "Int32";
-            _typeNameTable[22] = "Bing.Maps.MapShapeLayerCollection";
-            _typeNameTable[23] = "Bing.Maps.MapShapeLayer";
-            _typeNameTable[24] = "Bing.Maps.MapShapeCollection";
-            _typeNameTable[25] = "Bing.Maps.MapShape";
-            _typeNameTable[26] = "Bing.Maps.Traffic.TrafficIncidentPushpinOptions";
-            _typeNameTable[27] = "Bing.Maps.Directions.DirectionsUIEventManager";
-            _typeNameTable[28] = "Bing.Maps.Directions.DirectionsRenderOptions";
-            _typeNameTable[29] = "Bing.Maps.PreloadArea";
-            _typeNameTable[30] = "Bing.Maps.MapViewRestriction";
+            _typeNameTable[21] = "Bing.Maps.Location";
+            _typeNameTable[22] = "Int32";
+            _typeNameTable[23] = "Bing.Maps.MapShapeLayerCollection";
+            _typeNameTable[24] = "Bing.Maps.MapShapeLayer";
+            _typeNameTable[25] = "Bing.Maps.MapShapeCollection";
+            _typeNameTable[26] = "Bing.Maps.MapShape";
+            _typeNameTable[27] = "Bing.Maps.Traffic.TrafficIncidentPushpinOptions";
+            _typeNameTable[28] = "Bing.Maps.Directions.DirectionsUIEventManager";
+            _typeNameTable[29] = "Bing.Maps.Directions.DirectionsRenderOptions";
+            _typeNameTable[30] = "Bing.Maps.PreloadArea";
             _typeNameTable[31] = "Bing.Maps.MapType";
-            _typeNameTable[32] = "地图2.MainPage";
-            _typeNameTable[33] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[34] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[35] = "地图2.newpage1";
-            _typeNameTable[36] = "地图2.Common.ObservableDictionary";
-            _typeNameTable[37] = "地图2.Common.NavigationHelper";
-            _typeNameTable[38] = "Bing.Maps.Directions.DirectionsPolylineRenderOptions";
-            _typeNameTable[39] = "Bing.Maps.Directions.DirectionsPushpinRenderOptions";
-            _typeNameTable[40] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[41] = "Windows.UI.Xaml.Controls.ControlTemplate";
-            _typeNameTable[42] = "Bing.Maps.Pushpin";
-            _typeNameTable[43] = "Bing.Maps.MapItemsControl";
-            _typeNameTable[44] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[32] = "Bing.Maps.MapItemsControl";
+            _typeNameTable[33] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[34] = "地图2.MainPage";
+            _typeNameTable[35] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[36] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[37] = "地图2.newpage1";
+            _typeNameTable[38] = "地图2.Common.ObservableDictionary";
+            _typeNameTable[39] = "地图2.Common.NavigationHelper";
+            _typeNameTable[40] = "Bing.Maps.Directions.DirectionsPolylineRenderOptions";
+            _typeNameTable[41] = "Bing.Maps.Directions.DirectionsPushpinRenderOptions";
+            _typeNameTable[42] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[43] = "Windows.UI.Xaml.Controls.ControlTemplate";
+            _typeNameTable[44] = "Bing.Maps.Pushpin";
             _typeNameTable[45] = "Bing.Maps.VenueMaps.VenueFloorDataSource";
             _typeNameTable[46] = "Windows.Foundation.Collections.IObservableVector`1<Object>";
             _typeNameTable[47] = "Bing.Maps.VenueMaps.VenueEntity";
@@ -226,44 +226,44 @@ namespace 地图2.NOM_XamlTypeInfo
             _typeTable[4] = typeof(global::Windows.UI.Xaml.UIElement);
             _typeTable[5] = typeof(global::System.String);
             _typeTable[6] = typeof(global::System.Double);
-            _typeTable[7] = typeof(global::Bing.Maps.Location);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[9] = typeof(global::Bing.Maps.Search.SearchManager);
-            _typeTable[10] = typeof(global::Bing.Maps.Traffic.TrafficManager);
-            _typeTable[11] = typeof(global::Bing.Maps.Directions.DirectionsManager);
-            _typeTable[12] = typeof(global::Bing.Maps.VenueMaps.VenueManager);
-            _typeTable[13] = typeof(global::Bing.Maps.MapForegroundPosition);
-            _typeTable[14] = typeof(global::System.Enum);
-            _typeTable[15] = typeof(global::System.ValueType);
-            _typeTable[16] = typeof(global::System.Boolean);
-            _typeTable[17] = typeof(global::Bing.Maps.MapTileLayerCollection);
-            _typeTable[18] = typeof(global::Bing.Maps.MapTileLayer);
+            _typeTable[7] = typeof(global::System.Boolean);
+            _typeTable[8] = typeof(global::Bing.Maps.MapViewRestriction);
+            _typeTable[9] = typeof(global::System.Enum);
+            _typeTable[10] = typeof(global::System.ValueType);
+            _typeTable[11] = typeof(global::Bing.Maps.Search.SearchManager);
+            _typeTable[12] = typeof(global::Bing.Maps.Traffic.TrafficManager);
+            _typeTable[13] = typeof(global::Bing.Maps.Directions.DirectionsManager);
+            _typeTable[14] = typeof(global::Bing.Maps.VenueMaps.VenueManager);
+            _typeTable[15] = typeof(global::Bing.Maps.MapForegroundPosition);
+            _typeTable[16] = typeof(global::Bing.Maps.MapTileLayerCollection);
+            _typeTable[17] = typeof(global::Bing.Maps.MapTileLayer);
+            _typeTable[18] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[19] = typeof(global::Bing.Maps.LocationRectCollection);
             _typeTable[20] = typeof(global::Bing.Maps.LocationRect);
-            _typeTable[21] = typeof(global::System.Int32);
-            _typeTable[22] = typeof(global::Bing.Maps.MapShapeLayerCollection);
-            _typeTable[23] = typeof(global::Bing.Maps.MapShapeLayer);
-            _typeTable[24] = typeof(global::Bing.Maps.MapShapeCollection);
-            _typeTable[25] = typeof(global::Bing.Maps.MapShape);
-            _typeTable[26] = typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions);
-            _typeTable[27] = typeof(global::Bing.Maps.Directions.DirectionsUIEventManager);
-            _typeTable[28] = typeof(global::Bing.Maps.Directions.DirectionsRenderOptions);
-            _typeTable[29] = typeof(global::Bing.Maps.PreloadArea);
-            _typeTable[30] = typeof(global::Bing.Maps.MapViewRestriction);
+            _typeTable[21] = typeof(global::Bing.Maps.Location);
+            _typeTable[22] = typeof(global::System.Int32);
+            _typeTable[23] = typeof(global::Bing.Maps.MapShapeLayerCollection);
+            _typeTable[24] = typeof(global::Bing.Maps.MapShapeLayer);
+            _typeTable[25] = typeof(global::Bing.Maps.MapShapeCollection);
+            _typeTable[26] = typeof(global::Bing.Maps.MapShape);
+            _typeTable[27] = typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions);
+            _typeTable[28] = typeof(global::Bing.Maps.Directions.DirectionsUIEventManager);
+            _typeTable[29] = typeof(global::Bing.Maps.Directions.DirectionsRenderOptions);
+            _typeTable[30] = typeof(global::Bing.Maps.PreloadArea);
             _typeTable[31] = typeof(global::Bing.Maps.MapType);
-            _typeTable[32] = typeof(global::地图2.MainPage);
-            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[34] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[35] = typeof(global::地图2.newpage1);
-            _typeTable[36] = typeof(global::地图2.Common.ObservableDictionary);
-            _typeTable[37] = typeof(global::地图2.Common.NavigationHelper);
-            _typeTable[38] = typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions);
-            _typeTable[39] = typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions);
-            _typeTable[40] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[41] = typeof(global::Windows.UI.Xaml.Controls.ControlTemplate);
-            _typeTable[42] = typeof(global::Bing.Maps.Pushpin);
-            _typeTable[43] = typeof(global::Bing.Maps.MapItemsControl);
-            _typeTable[44] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[32] = typeof(global::Bing.Maps.MapItemsControl);
+            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[34] = typeof(global::地图2.MainPage);
+            _typeTable[35] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[36] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[37] = typeof(global::地图2.newpage1);
+            _typeTable[38] = typeof(global::地图2.Common.ObservableDictionary);
+            _typeTable[39] = typeof(global::地图2.Common.NavigationHelper);
+            _typeTable[40] = typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions);
+            _typeTable[41] = typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions);
+            _typeTable[42] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[43] = typeof(global::Windows.UI.Xaml.Controls.ControlTemplate);
+            _typeTable[44] = typeof(global::Bing.Maps.Pushpin);
             _typeTable[45] = typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource);
             _typeTable[46] = typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>);
             _typeTable[47] = typeof(global::Bing.Maps.VenueMaps.VenueEntity);
@@ -323,24 +323,24 @@ namespace 地图2.NOM_XamlTypeInfo
 
         private object Activate_0_Map() { return new global::Bing.Maps.Map(); }
         private object Activate_2_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
-        private object Activate_7_Location() { return new global::Bing.Maps.Location(); }
-        private object Activate_17_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
-        private object Activate_18_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
+        private object Activate_16_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
+        private object Activate_17_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
         private object Activate_19_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
         private object Activate_20_LocationRect() { return new global::Bing.Maps.LocationRect(); }
-        private object Activate_22_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
-        private object Activate_23_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
-        private object Activate_24_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
-        private object Activate_26_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
-        private object Activate_27_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
-        private object Activate_28_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
-        private object Activate_32_MainPage() { return new global::地图2.MainPage(); }
-        private object Activate_35_newpage1() { return new global::地图2.newpage1(); }
-        private object Activate_36_ObservableDictionary() { return new global::地图2.Common.ObservableDictionary(); }
-        private object Activate_38_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
-        private object Activate_39_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
-        private object Activate_42_Pushpin() { return new global::Bing.Maps.Pushpin(); }
-        private object Activate_43_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+        private object Activate_21_Location() { return new global::Bing.Maps.Location(); }
+        private object Activate_23_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
+        private object Activate_24_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
+        private object Activate_25_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
+        private object Activate_27_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
+        private object Activate_28_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
+        private object Activate_29_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
+        private object Activate_32_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+        private object Activate_34_MainPage() { return new global::地图2.MainPage(); }
+        private object Activate_37_newpage1() { return new global::地图2.newpage1(); }
+        private object Activate_38_ObservableDictionary() { return new global::地图2.Common.ObservableDictionary(); }
+        private object Activate_40_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
+        private object Activate_41_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
+        private object Activate_44_Pushpin() { return new global::Bing.Maps.Pushpin(); }
         private object Activate_45_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
         private object Activate_50_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
         private object Activate_57_RouteLegDataSource() { return new global::Bing.Maps.Directions.RouteLegDataSource(); }
@@ -353,7 +353,7 @@ namespace 地图2.NOM_XamlTypeInfo
             var newItem = (global::Windows.UI.Xaml.UIElement)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_17_MapTileLayerCollection(object instance, object item)
+        private void VectorAdd_16_MapTileLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapTileLayer>)instance;
             var newItem = (global::Bing.Maps.MapTileLayer)item;
@@ -365,19 +365,19 @@ namespace 地图2.NOM_XamlTypeInfo
             var newItem = (global::Bing.Maps.LocationRect)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_22_MapShapeLayerCollection(object instance, object item)
+        private void VectorAdd_23_MapShapeLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShapeLayer>)instance;
             var newItem = (global::Bing.Maps.MapShapeLayer)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_24_MapShapeCollection(object instance, object item)
+        private void VectorAdd_25_MapShapeCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShape>)instance;
             var newItem = (global::Bing.Maps.MapShape)item;
             collection.Add(newItem);
         }
-        private void MapAdd_36_ObservableDictionary(object instance, object key, object item)
+        private void MapAdd_38_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -412,11 +412,12 @@ namespace 地图2.NOM_XamlTypeInfo
                 userType.Activator = Activate_0_Map;
                 userType.SetContentPropertyName("Bing.Maps.Map.Children");
                 userType.AddMemberName("Children");
-                userType.AddMemberName("HomeRegion");
-                userType.AddMemberName("Culture");
-                userType.AddMemberName("ZoomLevel");
                 userType.AddMemberName("Credentials");
-                userType.AddMemberName("Center");
+                userType.AddMemberName("ZoomLevel");
+                userType.AddMemberName("ShowScaleBar");
+                userType.AddMemberName("ShowNavigationBar");
+                userType.AddMemberName("ShowBuildings");
+                userType.AddMemberName("ViewRestriction");
                 userType.AddMemberName("SearchManager");
                 userType.AddMemberName("TrafficManager");
                 userType.AddMemberName("DirectionsManager");
@@ -424,9 +425,7 @@ namespace 地图2.NOM_XamlTypeInfo
                 userType.AddMemberName("LogoPosition");
                 userType.AddMemberName("CopyrightPosition");
                 userType.AddMemberName("ScaleBarPosition");
-                userType.AddMemberName("ShowNavigationBar");
                 userType.AddMemberName("SuppressNetworkRequests");
-                userType.AddMemberName("ShowScaleBar");
                 userType.AddMemberName("TileLayers");
                 userType.AddMemberName("ShapeLayers");
                 userType.AddMemberName("RotationEnabled");
@@ -436,18 +435,19 @@ namespace 地图2.NOM_XamlTypeInfo
                 userType.AddMemberName("IsTransitDirectionsEnable");
                 userType.AddMemberName("MaxZoomLevel");
                 userType.AddMemberName("MinZoomLevel");
+                userType.AddMemberName("Culture");
+                userType.AddMemberName("HomeRegion");
                 userType.AddMemberName("TargetBounds");
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("ShowBreadcrumb");
-                userType.AddMemberName("ShowBuildings");
                 userType.AddMemberName("ShowTraffic");
                 userType.AddMemberName("PreloadArea");
-                userType.AddMemberName("ViewRestriction");
                 userType.AddMemberName("MapType");
                 userType.AddMemberName("TargetHeading");
                 userType.AddMemberName("TargetZoomLevel");
                 userType.AddMemberName("TargetCenter");
                 userType.AddMemberName("Heading");
+                userType.AddMemberName("Center");
                 userType.AddMemberName("MetersPerPixel");
                 userType.SetIsBindable();
                 xamlType = userType;
@@ -480,43 +480,54 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Bing.Maps.Location
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_7_Location;
-                userType.AddMemberName("Latitude");
-                userType.AddMemberName("Longitude");
-                xamlType = userType;
-                break;
-
-            case 8:   //  Windows.UI.Xaml.DependencyObject
+            case 7:   //  Boolean
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  Bing.Maps.Search.SearchManager
+            case 8:   //  Bing.Maps.MapViewRestriction
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::Bing.Maps.MapViewRestriction.None);
+                userType.AddEnumValue("ZoomOutToWholeWorld", global::Bing.Maps.MapViewRestriction.ZoomOutToWholeWorld);
+                userType.AddEnumValue("MapOnly", global::Bing.Maps.MapViewRestriction.MapOnly);
+                userType.AddEnumValue("OneWorldOnly", global::Bing.Maps.MapViewRestriction.OneWorldOnly);
+                xamlType = userType;
+                break;
+
+            case 9:   //  System.Enum
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.ValueType
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 11:   //  Bing.Maps.Search.SearchManager
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Bing.Maps.Traffic.TrafficManager
+            case 12:   //  Bing.Maps.Traffic.TrafficManager
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Bing.Maps.Directions.DirectionsManager
+            case 13:   //  Bing.Maps.Directions.DirectionsManager
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Bing.Maps.VenueMaps.VenueManager
+            case 14:   //  Bing.Maps.VenueMaps.VenueManager
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Bing.Maps.MapForegroundPosition
+            case 15:   //  Bing.Maps.MapForegroundPosition
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("TopRight", global::Bing.Maps.MapForegroundPosition.TopRight);
                 userType.AddEnumValue("TopLeft", global::Bing.Maps.MapForegroundPosition.TopLeft);
@@ -525,30 +536,16 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  System.Enum
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                xamlType = userType;
-                break;
-
-            case 15:   //  System.ValueType
+            case 16:   //  Bing.Maps.MapTileLayerCollection
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 16:   //  Boolean
-                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 17:   //  Bing.Maps.MapTileLayerCollection
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_17_MapTileLayerCollection;
+                userType.CollectionAdd = VectorAdd_16_MapTileLayerCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Bing.Maps.MapTileLayer
+            case 17:   //  Bing.Maps.MapTileLayer
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_18_MapTileLayer;
+                userType.Activator = Activate_17_MapTileLayer;
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
                 userType.AddMemberName("MaxZoomLevel");
@@ -558,6 +555,10 @@ namespace 地图2.NOM_XamlTypeInfo
                 userType.AddMemberName("TileSource");
                 userType.AddMemberName("Opacity");
                 xamlType = userType;
+                break;
+
+            case 18:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 19:   //  Bing.Maps.LocationRectCollection
@@ -582,42 +583,50 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  Int32
+            case 21:   //  Bing.Maps.Location
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_21_Location;
+                userType.AddMemberName("Latitude");
+                userType.AddMemberName("Longitude");
+                xamlType = userType;
+                break;
+
+            case 22:   //  Int32
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  Bing.Maps.MapShapeLayerCollection
+            case 23:   //  Bing.Maps.MapShapeLayerCollection
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_22_MapShapeLayerCollection;
+                userType.CollectionAdd = VectorAdd_23_MapShapeLayerCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 23:   //  Bing.Maps.MapShapeLayer
+            case 24:   //  Bing.Maps.MapShapeLayer
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_23_MapShapeLayer;
+                userType.Activator = Activate_24_MapShapeLayer;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("ZIndex");
                 userType.AddMemberName("Shapes");
                 xamlType = userType;
                 break;
 
-            case 24:   //  Bing.Maps.MapShapeCollection
+            case 25:   //  Bing.Maps.MapShapeCollection
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_24_MapShapeCollection;
+                userType.CollectionAdd = VectorAdd_25_MapShapeCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Bing.Maps.MapShape
+            case 26:   //  Bing.Maps.MapShape
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Visible");
                 xamlType = userType;
                 break;
 
-            case 26:   //  Bing.Maps.Traffic.TrafficIncidentPushpinOptions
+            case 27:   //  Bing.Maps.Traffic.TrafficIncidentPushpinOptions
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_26_TrafficIncidentPushpinOptions;
+                userType.Activator = Activate_27_TrafficIncidentPushpinOptions;
                 userType.AddMemberName("WeatherPushpinTemplate");
                 userType.AddMemberName("AlertPushpinTemplate");
                 userType.AddMemberName("ConstructionPushpinTemplate");
@@ -633,16 +642,16 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  Bing.Maps.Directions.DirectionsUIEventManager
+            case 28:   //  Bing.Maps.Directions.DirectionsUIEventManager
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_27_DirectionsUIEventManager;
+                userType.Activator = Activate_28_DirectionsUIEventManager;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 28:   //  Bing.Maps.Directions.DirectionsRenderOptions
+            case 29:   //  Bing.Maps.Directions.DirectionsRenderOptions
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_28_DirectionsRenderOptions;
+                userType.Activator = Activate_29_DirectionsRenderOptions;
                 userType.AddMemberName("WalkingPolylineOptions");
                 userType.AddMemberName("TransitPolylineOptions");
                 userType.AddMemberName("DrivingPolylineOptions");
@@ -666,21 +675,12 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  Bing.Maps.PreloadArea
+            case 30:   //  Bing.Maps.PreloadArea
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.PreloadArea.None);
                 userType.AddEnumValue("Small", global::Bing.Maps.PreloadArea.Small);
                 userType.AddEnumValue("Medium", global::Bing.Maps.PreloadArea.Medium);
                 userType.AddEnumValue("Large", global::Bing.Maps.PreloadArea.Large);
-                xamlType = userType;
-                break;
-
-            case 30:   //  Bing.Maps.MapViewRestriction
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("None", global::Bing.Maps.MapViewRestriction.None);
-                userType.AddEnumValue("ZoomOutToWholeWorld", global::Bing.Maps.MapViewRestriction.ZoomOutToWholeWorld);
-                userType.AddEnumValue("MapOnly", global::Bing.Maps.MapViewRestriction.MapOnly);
-                userType.AddEnumValue("OneWorldOnly", global::Bing.Maps.MapViewRestriction.OneWorldOnly);
                 xamlType = userType;
                 break;
 
@@ -694,44 +694,55 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  地图2.MainPage
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_32_MainPage;
+            case 32:   //  Bing.Maps.MapItemsControl
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_32_MapItemsControl;
+                userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 33:   //  Windows.UI.Xaml.Controls.Page
+            case 33:   //  Windows.UI.Xaml.Controls.ItemsControl
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 34:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 35:   //  地图2.newpage1
+            case 34:   //  地图2.MainPage
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_newpage1;
+                userType.Activator = Activate_34_MainPage;
+                xamlType = userType;
+                break;
+
+            case 35:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 36:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 37:   //  地图2.newpage1
+                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_37_newpage1;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 36:   //  地图2.Common.ObservableDictionary
+            case 38:   //  地图2.Common.ObservableDictionary
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_36_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_38_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 37:   //  地图2.Common.NavigationHelper
+            case 39:   //  地图2.Common.NavigationHelper
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 38:   //  Bing.Maps.Directions.DirectionsPolylineRenderOptions
+            case 40:   //  Bing.Maps.Directions.DirectionsPolylineRenderOptions
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_38_DirectionsPolylineRenderOptions;
+                userType.Activator = Activate_40_DirectionsPolylineRenderOptions;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("LineWidth");
                 userType.AddMemberName("LineColor");
@@ -739,9 +750,9 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 39:   //  Bing.Maps.Directions.DirectionsPushpinRenderOptions
+            case 41:   //  Bing.Maps.Directions.DirectionsPushpinRenderOptions
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_39_DirectionsPushpinRenderOptions;
+                userType.Activator = Activate_41_DirectionsPushpinRenderOptions;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("Offset");
                 userType.AddMemberName("PushpinTemplate");
@@ -749,33 +760,22 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Windows.UI.Xaml.Media.Brush
+            case 42:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  Windows.UI.Xaml.Controls.ControlTemplate
+            case 43:   //  Windows.UI.Xaml.Controls.ControlTemplate
                 xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Bing.Maps.Pushpin
+            case 44:   //  Bing.Maps.Pushpin
                 userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_42_Pushpin;
+                userType.Activator = Activate_44_Pushpin;
                 userType.AddMemberName("AssociateObject");
                 userType.AddMemberName("Selected");
                 userType.AddMemberName("Text");
                 userType.SetIsBindable();
                 xamlType = userType;
-                break;
-
-            case 43:   //  Bing.Maps.MapItemsControl
-                userType = new global::地图2.NOM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_43_MapItemsControl;
-                userType.SetIsBindable();
-                xamlType = userType;
-                break;
-
-            case 44:   //  Windows.UI.Xaml.Controls.ItemsControl
-                xamlType = new global::地图2.NOM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 45:   //  Bing.Maps.VenueMaps.VenueFloorDataSource
@@ -1102,115 +1102,115 @@ namespace 地图2.NOM_XamlTypeInfo
             var that = (global::Bing.Maps.Map)instance;
             return that.Children;
         }
-        private object get_1_Map_HomeRegion(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.HomeRegion;
-        }
-        private void set_1_Map_HomeRegion(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.HomeRegion = (global::System.String)Value;
-        }
-        private object get_2_Map_Culture(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.Culture;
-        }
-        private void set_2_Map_Culture(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.Culture = (global::System.String)Value;
-        }
-        private object get_3_Map_ZoomLevel(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.ZoomLevel;
-        }
-        private void set_3_Map_ZoomLevel(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.ZoomLevel = (global::System.Double)Value;
-        }
-        private object get_4_Map_Credentials(object instance)
+        private object get_1_Map_Credentials(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Credentials;
         }
-        private void set_4_Map_Credentials(object instance, object Value)
+        private void set_1_Map_Credentials(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Credentials = (global::System.String)Value;
         }
-        private object get_5_Map_Center(object instance)
+        private object get_2_Map_ZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
-            return that.Center;
+            return that.ZoomLevel;
         }
-        private void set_5_Map_Center(object instance, object Value)
+        private void set_2_Map_ZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
-            that.Center = (global::Bing.Maps.Location)Value;
+            that.ZoomLevel = (global::System.Double)Value;
         }
-        private object get_6_Map_SearchManager(object instance)
+        private object get_3_Map_ShowScaleBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
-            return that.SearchManager;
+            return that.ShowScaleBar;
         }
-        private object get_7_Map_TrafficManager(object instance)
+        private void set_3_Map_ShowScaleBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
-            return that.TrafficManager;
+            that.ShowScaleBar = (global::System.Boolean)Value;
         }
-        private object get_8_Map_DirectionsManager(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.DirectionsManager;
-        }
-        private object get_9_Map_VenueManager(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.VenueManager;
-        }
-        private object get_10_Map_LogoPosition(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.LogoPosition;
-        }
-        private void set_10_Map_LogoPosition(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.LogoPosition = (global::Bing.Maps.MapForegroundPosition)Value;
-        }
-        private object get_11_Map_CopyrightPosition(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.CopyrightPosition;
-        }
-        private void set_11_Map_CopyrightPosition(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.CopyrightPosition = (global::Bing.Maps.MapForegroundPosition)Value;
-        }
-        private object get_12_Map_ScaleBarPosition(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.ScaleBarPosition;
-        }
-        private void set_12_Map_ScaleBarPosition(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.ScaleBarPosition = (global::Bing.Maps.MapForegroundPosition)Value;
-        }
-        private object get_13_Map_ShowNavigationBar(object instance)
+        private object get_4_Map_ShowNavigationBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowNavigationBar;
         }
-        private void set_13_Map_ShowNavigationBar(object instance, object Value)
+        private void set_4_Map_ShowNavigationBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowNavigationBar = (global::System.Boolean)Value;
+        }
+        private object get_5_Map_ShowBuildings(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.ShowBuildings;
+        }
+        private void set_5_Map_ShowBuildings(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.ShowBuildings = (global::System.Boolean)Value;
+        }
+        private object get_6_Map_ViewRestriction(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.ViewRestriction;
+        }
+        private void set_6_Map_ViewRestriction(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.ViewRestriction = (global::Bing.Maps.MapViewRestriction)Value;
+        }
+        private object get_7_Map_SearchManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.SearchManager;
+        }
+        private object get_8_Map_TrafficManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.TrafficManager;
+        }
+        private object get_9_Map_DirectionsManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.DirectionsManager;
+        }
+        private object get_10_Map_VenueManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.VenueManager;
+        }
+        private object get_11_Map_LogoPosition(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.LogoPosition;
+        }
+        private void set_11_Map_LogoPosition(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.LogoPosition = (global::Bing.Maps.MapForegroundPosition)Value;
+        }
+        private object get_12_Map_CopyrightPosition(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.CopyrightPosition;
+        }
+        private void set_12_Map_CopyrightPosition(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.CopyrightPosition = (global::Bing.Maps.MapForegroundPosition)Value;
+        }
+        private object get_13_Map_ScaleBarPosition(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.ScaleBarPosition;
+        }
+        private void set_13_Map_ScaleBarPosition(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.ScaleBarPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
         private object get_14_Map_SuppressNetworkRequests(object instance)
         {
@@ -1222,285 +1222,285 @@ namespace 地图2.NOM_XamlTypeInfo
             var that = (global::Bing.Maps.Map)instance;
             that.SuppressNetworkRequests = (global::System.Boolean)Value;
         }
-        private object get_15_Map_ShowScaleBar(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.ShowScaleBar;
-        }
-        private void set_15_Map_ShowScaleBar(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.ShowScaleBar = (global::System.Boolean)Value;
-        }
-        private object get_16_Map_TileLayers(object instance)
+        private object get_15_Map_TileLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TileLayers;
         }
-        private object get_17_MapTileLayer_Bounds(object instance)
+        private object get_16_MapTileLayer_Bounds(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Bounds;
         }
-        private void set_17_MapTileLayer_Bounds(object instance, object Value)
+        private void set_16_MapTileLayer_Bounds(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Bounds = (global::Bing.Maps.LocationRectCollection)Value;
         }
-        private object get_18_LocationRect_West(object instance)
+        private object get_17_LocationRect_West(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.West;
         }
-        private object get_19_LocationRect_Southeast(object instance)
+        private object get_18_LocationRect_Southeast(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Southeast;
         }
-        private object get_20_LocationRect_South(object instance)
+        private object get_19_LocationRect_South(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.South;
         }
-        private object get_21_LocationRect_Northwest(object instance)
+        private object get_20_LocationRect_Northwest(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Northwest;
         }
-        private object get_22_LocationRect_North(object instance)
+        private object get_21_LocationRect_North(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.North;
         }
-        private object get_23_LocationRect_East(object instance)
+        private object get_22_LocationRect_East(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.East;
         }
-        private object get_24_LocationRect_Height(object instance)
+        private object get_23_LocationRect_Height(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Height;
         }
-        private void set_24_LocationRect_Height(object instance, object Value)
+        private void set_23_LocationRect_Height(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Height = (global::System.Double)Value;
         }
-        private object get_25_LocationRect_Width(object instance)
+        private object get_24_LocationRect_Width(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Width;
         }
-        private void set_25_LocationRect_Width(object instance, object Value)
+        private void set_24_LocationRect_Width(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Width = (global::System.Double)Value;
         }
-        private object get_26_LocationRect_Center(object instance)
+        private object get_25_LocationRect_Center(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Center;
         }
-        private void set_26_LocationRect_Center(object instance, object Value)
+        private void set_25_LocationRect_Center(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Center = (global::Bing.Maps.Location)Value;
         }
-        private object get_27_MapTileLayer_FillMissingTiles(object instance)
+        private object get_26_MapTileLayer_FillMissingTiles(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.FillMissingTiles;
         }
-        private void set_27_MapTileLayer_FillMissingTiles(object instance, object Value)
+        private void set_26_MapTileLayer_FillMissingTiles(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.FillMissingTiles = (global::System.Boolean)Value;
         }
-        private object get_28_MapTileLayer_MaxZoomLevel(object instance)
+        private object get_27_MapTileLayer_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MaxZoomLevel;
         }
-        private void set_28_MapTileLayer_MaxZoomLevel(object instance, object Value)
+        private void set_27_MapTileLayer_MaxZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MaxZoomLevel = (global::System.Double)Value;
         }
-        private object get_29_MapTileLayer_MinZoomLevel(object instance)
+        private object get_28_MapTileLayer_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MinZoomLevel;
         }
-        private void set_29_MapTileLayer_MinZoomLevel(object instance, object Value)
+        private void set_28_MapTileLayer_MinZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MinZoomLevel = (global::System.Double)Value;
         }
-        private object get_30_MapTileLayer_Visible(object instance)
+        private object get_29_MapTileLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Visible;
         }
-        private void set_30_MapTileLayer_Visible(object instance, object Value)
+        private void set_29_MapTileLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_31_MapTileLayer_ZIndex(object instance)
+        private object get_30_MapTileLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.ZIndex;
         }
-        private void set_31_MapTileLayer_ZIndex(object instance, object Value)
+        private void set_30_MapTileLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_32_MapTileLayer_TileSource(object instance)
+        private object get_31_MapTileLayer_TileSource(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.TileSource;
         }
-        private void set_32_MapTileLayer_TileSource(object instance, object Value)
+        private void set_31_MapTileLayer_TileSource(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.TileSource = (global::System.String)Value;
         }
-        private object get_33_MapTileLayer_Opacity(object instance)
+        private object get_32_MapTileLayer_Opacity(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Opacity;
         }
-        private void set_33_MapTileLayer_Opacity(object instance, object Value)
+        private void set_32_MapTileLayer_Opacity(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Opacity = (global::System.Double)Value;
         }
-        private object get_34_Map_ShapeLayers(object instance)
+        private object get_33_Map_ShapeLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShapeLayers;
         }
-        private object get_35_MapShapeLayer_Visible(object instance)
+        private object get_34_MapShapeLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Visible;
         }
-        private void set_35_MapShapeLayer_Visible(object instance, object Value)
+        private void set_34_MapShapeLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_36_MapShapeLayer_ZIndex(object instance)
+        private object get_35_MapShapeLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.ZIndex;
         }
-        private void set_36_MapShapeLayer_ZIndex(object instance, object Value)
+        private void set_35_MapShapeLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_37_MapShapeLayer_Shapes(object instance)
+        private object get_36_MapShapeLayer_Shapes(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Shapes;
         }
-        private void set_37_MapShapeLayer_Shapes(object instance, object Value)
+        private void set_36_MapShapeLayer_Shapes(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Shapes = (global::Bing.Maps.MapShapeCollection)Value;
         }
-        private object get_38_MapShape_Visible(object instance)
+        private object get_37_MapShape_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             return that.Visible;
         }
-        private void set_38_MapShape_Visible(object instance, object Value)
+        private void set_37_MapShape_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_39_Map_RotationEnabled(object instance)
+        private object get_38_Map_RotationEnabled(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.RotationEnabled;
         }
-        private object get_40_Map_TrafficIncidentPushpinOptions(object instance)
+        private object get_39_Map_TrafficIncidentPushpinOptions(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TrafficIncidentPushpinOptions;
         }
-        private void set_40_Map_TrafficIncidentPushpinOptions(object instance, object Value)
+        private void set_39_Map_TrafficIncidentPushpinOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.TrafficIncidentPushpinOptions = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)Value;
         }
-        private object get_41_Map_DirectionsUIEventManager(object instance)
+        private object get_40_Map_DirectionsUIEventManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.DirectionsUIEventManager;
         }
-        private void set_41_Map_DirectionsUIEventManager(object instance, object Value)
+        private void set_40_Map_DirectionsUIEventManager(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.DirectionsUIEventManager = (global::Bing.Maps.Directions.DirectionsUIEventManager)Value;
         }
-        private object get_42_Map_DirectionsRenderOptions(object instance)
+        private object get_41_Map_DirectionsRenderOptions(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.DirectionsRenderOptions;
         }
-        private void set_42_Map_DirectionsRenderOptions(object instance, object Value)
+        private void set_41_Map_DirectionsRenderOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.DirectionsRenderOptions = (global::Bing.Maps.Directions.DirectionsRenderOptions)Value;
         }
-        private object get_43_Map_IsTransitDirectionsEnable(object instance)
+        private object get_42_Map_IsTransitDirectionsEnable(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.IsTransitDirectionsEnable;
         }
-        private object get_44_Map_MaxZoomLevel(object instance)
+        private object get_43_Map_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MaxZoomLevel;
         }
-        private object get_45_Map_MinZoomLevel(object instance)
+        private object get_44_Map_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MinZoomLevel;
         }
-        private object get_46_Map_TargetBounds(object instance)
+        private object get_45_Map_Culture(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.Culture;
+        }
+        private void set_45_Map_Culture(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.Culture = (global::System.String)Value;
+        }
+        private object get_46_Map_HomeRegion(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.HomeRegion;
+        }
+        private void set_46_Map_HomeRegion(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.HomeRegion = (global::System.String)Value;
+        }
+        private object get_47_Map_TargetBounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetBounds;
         }
-        private object get_47_Map_Bounds(object instance)
+        private object get_48_Map_Bounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Bounds;
         }
-        private object get_48_Map_ShowBreadcrumb(object instance)
+        private object get_49_Map_ShowBreadcrumb(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowBreadcrumb;
         }
-        private void set_48_Map_ShowBreadcrumb(object instance, object Value)
+        private void set_49_Map_ShowBreadcrumb(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowBreadcrumb = (global::System.Boolean)Value;
-        }
-        private object get_49_Map_ShowBuildings(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.ShowBuildings;
-        }
-        private void set_49_Map_ShowBuildings(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.ShowBuildings = (global::System.Boolean)Value;
         }
         private object get_50_Map_ShowTraffic(object instance)
         {
@@ -1522,50 +1522,50 @@ namespace 地图2.NOM_XamlTypeInfo
             var that = (global::Bing.Maps.Map)instance;
             that.PreloadArea = (global::Bing.Maps.PreloadArea)Value;
         }
-        private object get_52_Map_ViewRestriction(object instance)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            return that.ViewRestriction;
-        }
-        private void set_52_Map_ViewRestriction(object instance, object Value)
-        {
-            var that = (global::Bing.Maps.Map)instance;
-            that.ViewRestriction = (global::Bing.Maps.MapViewRestriction)Value;
-        }
-        private object get_53_Map_MapType(object instance)
+        private object get_52_Map_MapType(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MapType;
         }
-        private void set_53_Map_MapType(object instance, object Value)
+        private void set_52_Map_MapType(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.MapType = (global::Bing.Maps.MapType)Value;
         }
-        private object get_54_Map_TargetHeading(object instance)
+        private object get_53_Map_TargetHeading(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetHeading;
         }
-        private object get_55_Map_TargetZoomLevel(object instance)
+        private object get_54_Map_TargetZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetZoomLevel;
         }
-        private object get_56_Map_TargetCenter(object instance)
+        private object get_55_Map_TargetCenter(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetCenter;
         }
-        private object get_57_Map_Heading(object instance)
+        private object get_56_Map_Heading(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Heading;
         }
-        private void set_57_Map_Heading(object instance, object Value)
+        private void set_56_Map_Heading(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Heading = (global::System.Double)Value;
+        }
+        private object get_57_Map_Center(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.Center;
+        }
+        private void set_57_Map_Center(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.Center = (global::Bing.Maps.Location)Value;
         }
         private object get_58_Map_MetersPerPixel(object instance)
         {
@@ -2441,83 +2441,83 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlMember.Getter = get_0_Map_Children;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Bing.Maps.Map.HomeRegion":
+            case "Bing.Maps.Map.Credentials":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
-                xamlMember.Getter = get_1_Map_HomeRegion;
-                xamlMember.Setter = set_1_Map_HomeRegion;
-                break;
-            case "Bing.Maps.Map.Culture":
-                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Culture", "String");
-                xamlMember.Getter = get_2_Map_Culture;
-                xamlMember.Setter = set_2_Map_Culture;
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Credentials", "String");
+                xamlMember.Getter = get_1_Map_Credentials;
+                xamlMember.Setter = set_1_Map_Credentials;
                 break;
             case "Bing.Maps.Map.ZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ZoomLevel", "Double");
-                xamlMember.Getter = get_3_Map_ZoomLevel;
-                xamlMember.Setter = set_3_Map_ZoomLevel;
+                xamlMember.Getter = get_2_Map_ZoomLevel;
+                xamlMember.Setter = set_2_Map_ZoomLevel;
                 break;
-            case "Bing.Maps.Map.Credentials":
+            case "Bing.Maps.Map.ShowScaleBar":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Credentials", "String");
-                xamlMember.Getter = get_4_Map_Credentials;
-                xamlMember.Setter = set_4_Map_Credentials;
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
+                xamlMember.Getter = get_3_Map_ShowScaleBar;
+                xamlMember.Setter = set_3_Map_ShowScaleBar;
                 break;
-            case "Bing.Maps.Map.Center":
+            case "Bing.Maps.Map.ShowNavigationBar":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
-                xamlMember.Getter = get_5_Map_Center;
-                xamlMember.Setter = set_5_Map_Center;
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
+                xamlMember.Getter = get_4_Map_ShowNavigationBar;
+                xamlMember.Setter = set_4_Map_ShowNavigationBar;
+                break;
+            case "Bing.Maps.Map.ShowBuildings":
+                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
+                xamlMember.Getter = get_5_Map_ShowBuildings;
+                xamlMember.Setter = set_5_Map_ShowBuildings;
+                break;
+            case "Bing.Maps.Map.ViewRestriction":
+                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
+                xamlMember.Getter = get_6_Map_ViewRestriction;
+                xamlMember.Setter = set_6_Map_ViewRestriction;
                 break;
             case "Bing.Maps.Map.SearchManager":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "SearchManager", "Bing.Maps.Search.SearchManager");
-                xamlMember.Getter = get_6_Map_SearchManager;
+                xamlMember.Getter = get_7_Map_SearchManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TrafficManager":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TrafficManager", "Bing.Maps.Traffic.TrafficManager");
-                xamlMember.Getter = get_7_Map_TrafficManager;
+                xamlMember.Getter = get_8_Map_TrafficManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.DirectionsManager":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "DirectionsManager", "Bing.Maps.Directions.DirectionsManager");
-                xamlMember.Getter = get_8_Map_DirectionsManager;
+                xamlMember.Getter = get_9_Map_DirectionsManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.VenueManager":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "VenueManager", "Bing.Maps.VenueMaps.VenueManager");
-                xamlMember.Getter = get_9_Map_VenueManager;
+                xamlMember.Getter = get_10_Map_VenueManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.LogoPosition":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "LogoPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_10_Map_LogoPosition;
-                xamlMember.Setter = set_10_Map_LogoPosition;
+                xamlMember.Getter = get_11_Map_LogoPosition;
+                xamlMember.Setter = set_11_Map_LogoPosition;
                 break;
             case "Bing.Maps.Map.CopyrightPosition":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "CopyrightPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_11_Map_CopyrightPosition;
-                xamlMember.Setter = set_11_Map_CopyrightPosition;
+                xamlMember.Getter = get_12_Map_CopyrightPosition;
+                xamlMember.Setter = set_12_Map_CopyrightPosition;
                 break;
             case "Bing.Maps.Map.ScaleBarPosition":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ScaleBarPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_12_Map_ScaleBarPosition;
-                xamlMember.Setter = set_12_Map_ScaleBarPosition;
-                break;
-            case "Bing.Maps.Map.ShowNavigationBar":
-                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
-                xamlMember.Getter = get_13_Map_ShowNavigationBar;
-                xamlMember.Setter = set_13_Map_ShowNavigationBar;
+                xamlMember.Getter = get_13_Map_ScaleBarPosition;
+                xamlMember.Setter = set_13_Map_ScaleBarPosition;
                 break;
             case "Bing.Maps.Map.SuppressNetworkRequests":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
@@ -2525,215 +2525,215 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlMember.Getter = get_14_Map_SuppressNetworkRequests;
                 xamlMember.Setter = set_14_Map_SuppressNetworkRequests;
                 break;
-            case "Bing.Maps.Map.ShowScaleBar":
-                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
-                xamlMember.Getter = get_15_Map_ShowScaleBar;
-                xamlMember.Setter = set_15_Map_ShowScaleBar;
-                break;
             case "Bing.Maps.Map.TileLayers":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TileLayers", "Bing.Maps.MapTileLayerCollection");
-                xamlMember.Getter = get_16_Map_TileLayers;
+                xamlMember.Getter = get_15_Map_TileLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapTileLayer.Bounds":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRectCollection");
-                xamlMember.Getter = get_17_MapTileLayer_Bounds;
-                xamlMember.Setter = set_17_MapTileLayer_Bounds;
+                xamlMember.Getter = get_16_MapTileLayer_Bounds;
+                xamlMember.Setter = set_16_MapTileLayer_Bounds;
                 break;
             case "Bing.Maps.LocationRect.West":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "West", "Double");
-                xamlMember.Getter = get_18_LocationRect_West;
+                xamlMember.Getter = get_17_LocationRect_West;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Southeast":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Southeast", "Bing.Maps.Location");
-                xamlMember.Getter = get_19_LocationRect_Southeast;
+                xamlMember.Getter = get_18_LocationRect_Southeast;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.South":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "South", "Double");
-                xamlMember.Getter = get_20_LocationRect_South;
+                xamlMember.Getter = get_19_LocationRect_South;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Northwest":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Northwest", "Bing.Maps.Location");
-                xamlMember.Getter = get_21_LocationRect_Northwest;
+                xamlMember.Getter = get_20_LocationRect_Northwest;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.North":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "North", "Double");
-                xamlMember.Getter = get_22_LocationRect_North;
+                xamlMember.Getter = get_21_LocationRect_North;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.East":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "East", "Double");
-                xamlMember.Getter = get_23_LocationRect_East;
+                xamlMember.Getter = get_22_LocationRect_East;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Height":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Height", "Double");
-                xamlMember.Getter = get_24_LocationRect_Height;
-                xamlMember.Setter = set_24_LocationRect_Height;
+                xamlMember.Getter = get_23_LocationRect_Height;
+                xamlMember.Setter = set_23_LocationRect_Height;
                 break;
             case "Bing.Maps.LocationRect.Width":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Width", "Double");
-                xamlMember.Getter = get_25_LocationRect_Width;
-                xamlMember.Setter = set_25_LocationRect_Width;
+                xamlMember.Getter = get_24_LocationRect_Width;
+                xamlMember.Setter = set_24_LocationRect_Width;
                 break;
             case "Bing.Maps.LocationRect.Center":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
-                xamlMember.Getter = get_26_LocationRect_Center;
-                xamlMember.Setter = set_26_LocationRect_Center;
+                xamlMember.Getter = get_25_LocationRect_Center;
+                xamlMember.Setter = set_25_LocationRect_Center;
                 break;
             case "Bing.Maps.MapTileLayer.FillMissingTiles":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "FillMissingTiles", "Boolean");
-                xamlMember.Getter = get_27_MapTileLayer_FillMissingTiles;
-                xamlMember.Setter = set_27_MapTileLayer_FillMissingTiles;
+                xamlMember.Getter = get_26_MapTileLayer_FillMissingTiles;
+                xamlMember.Setter = set_26_MapTileLayer_FillMissingTiles;
                 break;
             case "Bing.Maps.MapTileLayer.MaxZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_28_MapTileLayer_MaxZoomLevel;
-                xamlMember.Setter = set_28_MapTileLayer_MaxZoomLevel;
+                xamlMember.Getter = get_27_MapTileLayer_MaxZoomLevel;
+                xamlMember.Setter = set_27_MapTileLayer_MaxZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.MinZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_29_MapTileLayer_MinZoomLevel;
-                xamlMember.Setter = set_29_MapTileLayer_MinZoomLevel;
+                xamlMember.Getter = get_28_MapTileLayer_MinZoomLevel;
+                xamlMember.Setter = set_28_MapTileLayer_MinZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.Visible":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_30_MapTileLayer_Visible;
-                xamlMember.Setter = set_30_MapTileLayer_Visible;
+                xamlMember.Getter = get_29_MapTileLayer_Visible;
+                xamlMember.Setter = set_29_MapTileLayer_Visible;
                 break;
             case "Bing.Maps.MapTileLayer.ZIndex":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_31_MapTileLayer_ZIndex;
-                xamlMember.Setter = set_31_MapTileLayer_ZIndex;
+                xamlMember.Getter = get_30_MapTileLayer_ZIndex;
+                xamlMember.Setter = set_30_MapTileLayer_ZIndex;
                 break;
             case "Bing.Maps.MapTileLayer.TileSource":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TileSource", "String");
-                xamlMember.Getter = get_32_MapTileLayer_TileSource;
-                xamlMember.Setter = set_32_MapTileLayer_TileSource;
+                xamlMember.Getter = get_31_MapTileLayer_TileSource;
+                xamlMember.Setter = set_31_MapTileLayer_TileSource;
                 break;
             case "Bing.Maps.MapTileLayer.Opacity":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Opacity", "Double");
-                xamlMember.Getter = get_33_MapTileLayer_Opacity;
-                xamlMember.Setter = set_33_MapTileLayer_Opacity;
+                xamlMember.Getter = get_32_MapTileLayer_Opacity;
+                xamlMember.Setter = set_32_MapTileLayer_Opacity;
                 break;
             case "Bing.Maps.Map.ShapeLayers":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShapeLayers", "Bing.Maps.MapShapeLayerCollection");
-                xamlMember.Getter = get_34_Map_ShapeLayers;
+                xamlMember.Getter = get_33_Map_ShapeLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapShapeLayer.Visible":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_35_MapShapeLayer_Visible;
-                xamlMember.Setter = set_35_MapShapeLayer_Visible;
+                xamlMember.Getter = get_34_MapShapeLayer_Visible;
+                xamlMember.Setter = set_34_MapShapeLayer_Visible;
                 break;
             case "Bing.Maps.MapShapeLayer.ZIndex":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_36_MapShapeLayer_ZIndex;
-                xamlMember.Setter = set_36_MapShapeLayer_ZIndex;
+                xamlMember.Getter = get_35_MapShapeLayer_ZIndex;
+                xamlMember.Setter = set_35_MapShapeLayer_ZIndex;
                 break;
             case "Bing.Maps.MapShapeLayer.Shapes":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Shapes", "Bing.Maps.MapShapeCollection");
-                xamlMember.Getter = get_37_MapShapeLayer_Shapes;
-                xamlMember.Setter = set_37_MapShapeLayer_Shapes;
+                xamlMember.Getter = get_36_MapShapeLayer_Shapes;
+                xamlMember.Setter = set_36_MapShapeLayer_Shapes;
                 break;
             case "Bing.Maps.MapShape.Visible":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShape");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_38_MapShape_Visible;
-                xamlMember.Setter = set_38_MapShape_Visible;
+                xamlMember.Getter = get_37_MapShape_Visible;
+                xamlMember.Setter = set_37_MapShape_Visible;
                 break;
             case "Bing.Maps.Map.RotationEnabled":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "RotationEnabled", "Boolean");
-                xamlMember.Getter = get_39_Map_RotationEnabled;
+                xamlMember.Getter = get_38_Map_RotationEnabled;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TrafficIncidentPushpinOptions":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TrafficIncidentPushpinOptions", "Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
-                xamlMember.Getter = get_40_Map_TrafficIncidentPushpinOptions;
-                xamlMember.Setter = set_40_Map_TrafficIncidentPushpinOptions;
+                xamlMember.Getter = get_39_Map_TrafficIncidentPushpinOptions;
+                xamlMember.Setter = set_39_Map_TrafficIncidentPushpinOptions;
                 break;
             case "Bing.Maps.Map.DirectionsUIEventManager":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "DirectionsUIEventManager", "Bing.Maps.Directions.DirectionsUIEventManager");
-                xamlMember.Getter = get_41_Map_DirectionsUIEventManager;
-                xamlMember.Setter = set_41_Map_DirectionsUIEventManager;
+                xamlMember.Getter = get_40_Map_DirectionsUIEventManager;
+                xamlMember.Setter = set_40_Map_DirectionsUIEventManager;
                 break;
             case "Bing.Maps.Map.DirectionsRenderOptions":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "DirectionsRenderOptions", "Bing.Maps.Directions.DirectionsRenderOptions");
-                xamlMember.Getter = get_42_Map_DirectionsRenderOptions;
-                xamlMember.Setter = set_42_Map_DirectionsRenderOptions;
+                xamlMember.Getter = get_41_Map_DirectionsRenderOptions;
+                xamlMember.Setter = set_41_Map_DirectionsRenderOptions;
                 break;
             case "Bing.Maps.Map.IsTransitDirectionsEnable":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "IsTransitDirectionsEnable", "Boolean");
-                xamlMember.Getter = get_43_Map_IsTransitDirectionsEnable;
+                xamlMember.Getter = get_42_Map_IsTransitDirectionsEnable;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MaxZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_44_Map_MaxZoomLevel;
+                xamlMember.Getter = get_43_Map_MaxZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MinZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_45_Map_MinZoomLevel;
+                xamlMember.Getter = get_44_Map_MinZoomLevel;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Map.Culture":
+                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Culture", "String");
+                xamlMember.Getter = get_45_Map_Culture;
+                xamlMember.Setter = set_45_Map_Culture;
+                break;
+            case "Bing.Maps.Map.HomeRegion":
+                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
+                xamlMember.Getter = get_46_Map_HomeRegion;
+                xamlMember.Setter = set_46_Map_HomeRegion;
                 break;
             case "Bing.Maps.Map.TargetBounds":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TargetBounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_46_Map_TargetBounds;
+                xamlMember.Getter = get_47_Map_TargetBounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Bounds":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_47_Map_Bounds;
+                xamlMember.Getter = get_48_Map_Bounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.ShowBreadcrumb":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowBreadcrumb", "Boolean");
-                xamlMember.Getter = get_48_Map_ShowBreadcrumb;
-                xamlMember.Setter = set_48_Map_ShowBreadcrumb;
-                break;
-            case "Bing.Maps.Map.ShowBuildings":
-                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
-                xamlMember.Getter = get_49_Map_ShowBuildings;
-                xamlMember.Setter = set_49_Map_ShowBuildings;
+                xamlMember.Getter = get_49_Map_ShowBreadcrumb;
+                xamlMember.Setter = set_49_Map_ShowBreadcrumb;
                 break;
             case "Bing.Maps.Map.ShowTraffic":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
@@ -2747,41 +2747,41 @@ namespace 地图2.NOM_XamlTypeInfo
                 xamlMember.Getter = get_51_Map_PreloadArea;
                 xamlMember.Setter = set_51_Map_PreloadArea;
                 break;
-            case "Bing.Maps.Map.ViewRestriction":
-                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
-                xamlMember.Getter = get_52_Map_ViewRestriction;
-                xamlMember.Setter = set_52_Map_ViewRestriction;
-                break;
             case "Bing.Maps.Map.MapType":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "MapType", "Bing.Maps.MapType");
-                xamlMember.Getter = get_53_Map_MapType;
-                xamlMember.Setter = set_53_Map_MapType;
+                xamlMember.Getter = get_52_Map_MapType;
+                xamlMember.Setter = set_52_Map_MapType;
                 break;
             case "Bing.Maps.Map.TargetHeading":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TargetHeading", "Double");
-                xamlMember.Getter = get_54_Map_TargetHeading;
+                xamlMember.Getter = get_53_Map_TargetHeading;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetZoomLevel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TargetZoomLevel", "Double");
-                xamlMember.Getter = get_55_Map_TargetZoomLevel;
+                xamlMember.Getter = get_54_Map_TargetZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetCenter":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "TargetCenter", "Bing.Maps.Location");
-                xamlMember.Getter = get_56_Map_TargetCenter;
+                xamlMember.Getter = get_55_Map_TargetCenter;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Heading":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Heading", "Double");
-                xamlMember.Getter = get_57_Map_Heading;
-                xamlMember.Setter = set_57_Map_Heading;
+                xamlMember.Getter = get_56_Map_Heading;
+                xamlMember.Setter = set_56_Map_Heading;
+                break;
+            case "Bing.Maps.Map.Center":
+                userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::地图2.NOM_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
+                xamlMember.Getter = get_57_Map_Center;
+                xamlMember.Setter = set_57_Map_Center;
                 break;
             case "Bing.Maps.Map.MetersPerPixel":
                 userType = (global::地图2.NOM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");

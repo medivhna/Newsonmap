@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-06-08T07:07:27.976</Modified>
+      <Modified>2014-06-08T15:42:06.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sorrow\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.Xaml\1.313.0825.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -474,7 +474,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-08T07:07:27.676</Modified>
+      <Modified>2014-06-08T15:42:06.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
@@ -482,11 +482,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\Bing.Maps\Themes\Generic.xbf">
       <PackagePath>Bing.Maps\Themes\Generic.xbf</PackagePath>
-      <Modified>2014-06-08T07:07:27.745</Modified>
+      <Modified>2014-06-08T15:42:06.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-08T07:07:28.540</Modified>
+      <Modified>2014-06-08T15:42:07.235</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
