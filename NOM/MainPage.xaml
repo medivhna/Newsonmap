@@ -8,6 +8,10 @@
     mc:Ignorable="d"
     xmlns:bm="using:Bing.Maps">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <bm:Map Credentials="Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd" x:Name="map" />
+        <bm:Map HomeRegion="US" Culture="en-US" ZoomLevel="12" Credentials="Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd" x:Name="map" >
+        <bm:Map.Center>
+            <bm:Location Latitude="46.227480" Longitude="-122.192955" />
+        </bm:Map.Center>
+        </bm:Map>
     </Grid>
 </Page>

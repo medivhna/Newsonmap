@@ -61,7 +61,6 @@ namespace 地图2
         private IMobileServiceTable<Item> itemTable =
             App.MobileService.GetTable<Item>();
 
-
         private MobileServiceUser user;
         private async System.Threading.Tasks.Task Authenticate()
         {
@@ -88,8 +87,6 @@ namespace 地图2
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             //await Authenticate();
-
-            map.SetZoomLevel(1.0);
 
             Website.Add("beijing", "http://news.baidu.com/n?cmd=7&loc=0&name=%B1%B1%BE%A9&tn=rss"); 
             Website.Add("shanghai", "http://news.baidu.com/n?cmd=7&loc=2354&name=%C9%CF%BA%A3&tn=rss"); 

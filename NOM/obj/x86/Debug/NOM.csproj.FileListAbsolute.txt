@@ -53,6 +53,7 @@ E:\Project\git\NOM\obj\x86\Debug\qualifiers.txt.intermediate
 E:\Project\git\NOM\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
 E:\Project\git\NOM\obj\x86\Debug\ProjectArchitectures.txt
+E:\Project\git\NOM\obj\x86\Debug\Bing.Maps\Themes\Generic.xbf
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles.intermediate
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles
@@ -61,4 +62,3 @@ E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles.intermediate
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml.intermediate
-E:\Project\git\NOM\obj\x86\Debug\Bing.Maps\Themes\Generic.xbf
