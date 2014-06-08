@@ -40,7 +40,7 @@
 
 
            
-            <Button x:ConnectionId='1' x:Name="backButton" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"   Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+            <Button x:ConnectionId='0' x:Name="backButton" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"   Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
                         Style="{StaticResource NavigationBackButtonNormalStyle}"
                         
                         AutomationProperties.Name="Back"

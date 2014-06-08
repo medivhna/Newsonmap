@@ -88,7 +88,9 @@ namespace 地图2
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             //await Authenticate();
-           
+
+            map.SetZoomLevel(9);
+
             Website.Add("beijing", "http://news.baidu.com/n?cmd=7&loc=0&name=%B1%B1%BE%A9&tn=rss"); 
             Website.Add("shanghai", "http://news.baidu.com/n?cmd=7&loc=2354&name=%C9%CF%BA%A3&tn=rss"); 
             Website.Add("tianjin", "http://news.baidu.com/n?cmd=7&loc=125&name=%CC%EC%BD%F2&tn=rss");
@@ -157,7 +159,7 @@ namespace 地图2
                            Pubdate = (string)query.Element("pubDate"),
                            Source = (string)query.Element("source"),
                        };
-            lv1.DataContext = data;
+           // lv1.DataContext = data;
         }
 
 
