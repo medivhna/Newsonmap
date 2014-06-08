@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="e:\project\git\nom\obj\x86\debug\intermediatexaml\地图2.exe" HashGuid="28f708d1-9831-9390-8389-8e4b301e6306" />
+    <LocalAssembly PathName="e:\project\git\nom\obj\x86\debug\intermediatexaml\地图2.exe" HashGuid="ef142917-2c0f-0230-9810-dd1b351ca978" />
     <ReferenceAssembly PathName="c:\users\sorrow\appdata\local\microsoft sdks\windows\v8.1\extensionsdks\bing.maps.xaml\1.313.0825.0\references\commonconfiguration\neutral\bing.maps.winmd" HashGuid="dcdce9e5-521a-6d20-3956-9df814dff813" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
     <ReferenceAssembly PathName="e:\project\git\packages\windowsazure.mobileservices.1.1.3\lib\netcore45\microsoft.windowsazure.mobile.dll" HashGuid="229f604e-67f1-c4fe-cd43-3dc09ffb1929" />

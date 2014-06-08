@@ -17,13 +17,13 @@
     <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-08T06:08:36.542</Modified>
+      <Modified>2014-06-08T06:33:47.152</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-06-08T06:11:48.243</Modified>
+      <Modified>2014-06-08T06:33:45.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sorrow\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.Xaml\1.313.0825.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -470,23 +470,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-06-08T06:08:34.164</Modified>
+      <Modified>2014-06-08T06:33:45.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-08T06:08:34.164</Modified>
+      <Modified>2014-06-08T06:33:45.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
-      <Modified>2014-06-08T06:08:34.164</Modified>
+      <Modified>2014-06-08T06:33:45.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\Bing.Maps\Themes\Generic.xbf">
       <PackagePath>Bing.Maps\Themes\Generic.xbf</PackagePath>
-      <Modified>2014-06-08T06:11:48.001</Modified>
+      <Modified>2014-06-08T06:33:45.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-08T06:11:48.808</Modified>
+      <Modified>2014-06-08T06:33:46.158</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
