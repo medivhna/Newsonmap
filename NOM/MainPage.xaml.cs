@@ -19,7 +19,7 @@ using 地图2.Common;
 using Newtonsoft.Json;
 using System.Xml.Linq;
 using Windows.ApplicationModel;
-
+using Com.AMap.Maps.Api;
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
 namespace 地图2
@@ -87,6 +87,10 @@ namespace 地图2
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             //await Authenticate();
+            Com.AMap.Maps.Api.AMapConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
+
+            map.Zoom = 4;
+            map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
 
             Website.Add("beijing", "http://news.baidu.com/n?cmd=7&loc=0&name=%B1%B1%BE%A9&tn=rss"); 
             Website.Add("shanghai", "http://news.baidu.com/n?cmd=7&loc=2354&name=%C9%CF%BA%A3&tn=rss"); 

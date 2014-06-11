@@ -6,13 +6,9 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    xmlns:bm="using:Bing.Maps">
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">    
-        <bm:Map Credentials="Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd" ZoomLevel="10" x:Name="myMap" ShowScaleBar="False" ShowNavigationBar="False" ShowBuildings="False" ViewRestriction="MapOnly">
-            <bm:MapItemsControl>
-                <bm:Location Latitude="45" Longitude="-120" ScrollViewer.ZoomMode="Disabled"/>
-            </bm:MapItemsControl>
-        </bm:Map>
+    xmlns:amap="using:Com.AMap.Maps.Api">
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <amap:AMap x:Name="map" />
     </Grid>
 </Page>
 <!--Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd-->

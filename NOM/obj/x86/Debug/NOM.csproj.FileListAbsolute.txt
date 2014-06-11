@@ -13,14 +13,11 @@ E:\Project\git\NOM\obj\x86\Debug\XamlSaveStateFile.xml
 E:\Project\git\NOM\bin\x86\Debug\App.xbf
 E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf
 E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf
-E:\Project\git\NOM\bin\x86\Debug\Bing.Maps\Themes\Generic.xbf
 E:\Project\git\NOM\bin\x86\Debug\地图2.exe
 E:\Project\git\NOM\bin\x86\Debug\地图2.pdb
 E:\Project\git\NOM\bin\x86\Debug\resources.pri
 E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml
 E:\Project\git\NOM\bin\x86\Debug\NOM.build.appxrecipe
-E:\Project\git\NOM\bin\x86\Debug\Bing.Maps.winmd
-E:\Project\git\NOM\bin\x86\Debug\Bing.Maps.xml
 E:\Project\git\NOM\bin\x86\Debug\Microsoft.WindowsAzure.Mobile.dll
 E:\Project\git\NOM\bin\x86\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 E:\Project\git\NOM\bin\x86\Debug\Newtonsoft.Json.dll
@@ -53,8 +50,9 @@ E:\Project\git\NOM\obj\x86\Debug\qualifiers.txt.intermediate
 E:\Project\git\NOM\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
 E:\Project\git\NOM\obj\x86\Debug\ProjectArchitectures.txt
-E:\Project\git\NOM\obj\x86\Debug\Bing.Maps\Themes\Generic.xbf
 E:\Project\git\NOM\obj\x86\Debug\NOM.csprojResolveAssemblyReference.cache
+E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Maps.Api.dll
+E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Maps.Api.xml
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles.intermediate
 E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles
