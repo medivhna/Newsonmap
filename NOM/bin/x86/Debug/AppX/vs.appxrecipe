@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>51574Cappuccinos.NewsOnMap</PackageIdentityName>
-    <RegisteredManifestChecksum>069DA83B267F3A7828CE9D89B6B61510D520F2C24655ECACBA6E2B115ACB4257</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F60C3678F344CB03378A1B0E67B3B3877995E2D0119C46DE9091C113737F6D22</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>51574Cappuccinos.NewsOnMap_1.1.0.0_x86__prcb7g4jatcsy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>51574Cappuccinos.NewsOnMap_prcb7g4jatcsy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>51574Cappuccinos.NewsOnMap</RegisteredPackageID>
@@ -17,13 +17,13 @@
     <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-11T10:32:24.168</Modified>
+      <Modified>2014-06-12T12:44:20.617</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-06-11T10:49:56.447</Modified>
+      <Modified>2014-06-12T12:44:03.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
       <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
@@ -48,6 +48,10 @@
     <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
       <Modified>2014-06-08T06:03:12.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Search.API.winmd">
+      <PackagePath>Com.AMap.Search.API.winmd</PackagePath>
+      <Modified>2013-12-24T03:01:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -166,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-11T10:49:19.811</Modified>
+      <Modified>2014-06-12T12:44:02.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
@@ -174,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-11T10:49:56.606</Modified>
+      <Modified>2014-06-12T12:44:04.339</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

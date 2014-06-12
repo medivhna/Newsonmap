@@ -35,6 +35,9 @@
     <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Search.API.winmd">
+      <PackagePath>Com.AMap.Search.API.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
