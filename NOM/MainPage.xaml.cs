@@ -85,7 +85,7 @@ namespace 地图2
                 await dialog.ShowAsync();
             }
         }
-        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        protected override /*async*/ void OnNavigatedTo(NavigationEventArgs e)
         {
             //await Authenticate();
             Com.AMap.Maps.Api.AMapConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
@@ -94,8 +94,10 @@ namespace 地图2
             map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
             AMarker dot = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34));
             map.Children.Add(dot);
-            
+            //dot.Tapped
 
+
+            #region Add Websites
             Website.Add("beijing", "http://news.baidu.com/n?cmd=7&loc=0&name=%B1%B1%BE%A9&tn=rss"); 
             Website.Add("shanghai", "http://news.baidu.com/n?cmd=7&loc=2354&name=%C9%CF%BA%A3&tn=rss"); 
             Website.Add("tianjin", "http://news.baidu.com/n?cmd=7&loc=125&name=%CC%EC%BD%F2&tn=rss");
@@ -130,7 +132,16 @@ namespace 地图2
             Website.Add("aomen", "http://news.baidu.com/n?cmd=7&loc=9436&name=%B0%C4%C3%C5&tn=rss"); 
             Website.Add("taiwan", "http://news.baidu.com/n?cmd=7&loc=9442&name=%CC%A8%CD%E5&tn=rss");
             Website.Add("hainan","http://news.baidu.com/n?cmd=7&loc=6245&name=%BA%A3%C4%CF&tn=rss");
+            #endregion
         }
+
+        //public event TappedEventHandler buttons_tapped
+        //{
+        //    add
+        //    {
+        //        map.Children.
+        //    }
+        //}
 
         public class Item
         {
@@ -166,6 +177,14 @@ namespace 地图2
                        };
            // lv1.DataContext = data;
         }
+
+        //为右键设置预留方法
+        private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+
+        }
+
+
 
 
     }
