@@ -9,7 +9,8 @@
     xmlns:amap="using:Com.AMap.Maps.Api">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <amap:AMap x:Name="map" RightTapped="map_RightTapped" Tapped="map_Tapped" >
-            
+            <Button x:Name="button1" Background="Black" Content="Button" Height="84" Canvas.Left="563" Canvas.Top="303" Width="143"/>
+
         </amap:AMap>
     </Grid>
 </Page>
