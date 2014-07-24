@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-06-12T12:44:03.307</Modified>
+      <Modified>2014-07-24T19:52:49.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
       <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
@@ -170,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-12T12:44:02.966</Modified>
+      <Modified>2014-07-24T19:52:48.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
@@ -178,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-12T12:44:04.339</Modified>
+      <Modified>2014-07-24T19:52:50.074</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

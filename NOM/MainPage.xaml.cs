@@ -94,7 +94,7 @@ namespace 地图2
             map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
             AMarker dot = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34));
             map.Children.Add(dot);
-            //dot.Tapped
+            dot.Tapped += new TappedEventHandler(this.dot_tapped);
 
 
             #region Add Websites
@@ -135,13 +135,6 @@ namespace 地图2
             #endregion
         }
 
-        //public event TappedEventHandler buttons_tapped
-        //{
-        //    add
-        //    {
-        //        map.Children.
-        //    }
-        //}
 
         public class Item
         {
@@ -184,6 +177,11 @@ namespace 地图2
 
         }
 
+        private async void dot_tapped(object sender, RoutedEventArgs e)
+        {
+            MessageDialog msg = new MessageDialog("hello");
+            await msg.ShowAsync();
+        }
 
 
 

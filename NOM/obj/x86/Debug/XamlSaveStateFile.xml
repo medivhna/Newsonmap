@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="e:\project\git\nom\obj\x86\debug\intermediatexaml\地图2.exe" HashGuid="c94a8afb-26f1-6464-ee1c-d07c9935ac84" />
+    <LocalAssembly PathName="e:\project\git\nom\obj\x86\debug\intermediatexaml\地图2.exe" HashGuid="f719146c-148b-977d-30c7-ec5739df81e0" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
     <ReferenceAssembly PathName="e:\project\map\com.amap.maps.api.dll" HashGuid="16908750-2cc7-8e0e-ae63-d4ef1ea2a6a4" />
     <ReferenceAssembly PathName="e:\project\map\com.amap.search.api.winmd" HashGuid="14c1c529-1dbd-977b-dbf5-04ab9137c942" />
