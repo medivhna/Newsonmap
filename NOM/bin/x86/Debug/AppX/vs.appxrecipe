@@ -17,13 +17,13 @@
     <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-12T12:44:20.617</Modified>
+      <Modified>2014-07-24T20:04:28.556</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-07-24T19:52:49.081</Modified>
+      <Modified>2014-07-24T20:03:41.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
       <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
@@ -178,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-24T19:52:50.074</Modified>
+      <Modified>2014-07-24T20:03:41.743</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

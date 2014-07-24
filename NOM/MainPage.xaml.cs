@@ -146,12 +146,15 @@ namespace 地图2
             [JsonProperty(PropertyName = "complete")]
             public bool Complete { get; set; }
         }
+
+        // Will be replaced
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
             selected = e.ClickedItem as News;
             Frame.Navigate(typeof(newpage1));
         }
 
+        // Will be replaced
         private void Buttons_Clicked(object sender, RoutedEventArgs e)
         {
             Button ClickedButton = (Button)sender;
@@ -170,17 +173,17 @@ namespace 地图2
                        };
            // lv1.DataContext = data;
         }
-
-        //为右键设置预留方法
+        
+        // 为右键设置预留方法
         private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
 
         }
 
-        private async void dot_tapped(object sender, RoutedEventArgs e)
+        // 事件处理
+        private void dot_tapped(object sender, RoutedEventArgs e)
         {
-            MessageDialog msg = new MessageDialog("hello");
-            await msg.ShowAsync();
+            Frame.Navigate(typeof(newpage1));
         }
 
 
