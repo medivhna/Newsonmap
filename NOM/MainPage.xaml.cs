@@ -33,12 +33,6 @@ namespace 地图2
         public MainPage()
         {
             this.InitializeComponent();
-            button1.Tapped += button1_Tapped;
-        }
-
-        void button1_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            button1.Visibility = Visibility.Collapsed;
         }
 
 
