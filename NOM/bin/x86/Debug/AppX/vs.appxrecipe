@@ -17,13 +17,13 @@
     <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-24T20:04:28.556</Modified>
+      <Modified>2014-07-24T20:21:14.493</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-07-24T20:03:41.540</Modified>
+      <Modified>2014-07-24T20:41:41.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
       <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
@@ -170,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-07-24T19:52:48.790</Modified>
+      <Modified>2014-07-24T20:41:40.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
@@ -178,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-24T20:03:41.743</Modified>
+      <Modified>2014-07-24T20:41:42.458</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

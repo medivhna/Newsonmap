@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     xmlns:amap="using:Com.AMap.Maps.Api">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <amap:AMap x:ConnectionId='1' x:Name="map"                                >
+        <amap:AMap x:ConnectionId='1' x:Name="map"                                                   >
             
         </amap:AMap>
     </Grid>

@@ -183,7 +183,14 @@ namespace 地图2
         // 事件处理
         private void dot_tapped(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(newpage1));
+            AMarker dot1 = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 35));
+            map.Children.Add(dot1);
+        }
+
+        private void map_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            AMarker dot2 = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 36));
+            map.Children.Add(dot2);
         }
 
 
