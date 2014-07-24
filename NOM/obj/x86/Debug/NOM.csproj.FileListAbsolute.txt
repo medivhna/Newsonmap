@@ -55,11 +55,3 @@ E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Maps.Api.dll
 E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Maps.Api.xml
 E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Search.API.winmd
 E:\Project\git\NOM\bin\x86\Debug\Com.AMap.Search.API.xml
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles.intermediate
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles.intermediate
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles.intermediate
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml
-E:\Project\git\NOM\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml.intermediate

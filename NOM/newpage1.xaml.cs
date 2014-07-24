@@ -51,8 +51,8 @@ namespace 地图2
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
-            pageTitle.DataContext = 地图2.MainPage.selected;
-            wv1.DataContext = 地图2.MainPage.selected;
+            //pageTitle.DataContext = 地图2.MainPage.selected;
+            //wv1.DataContext = 地图2.MainPage.selected;
         }
 
         /// <summary>
