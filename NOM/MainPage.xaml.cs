@@ -21,6 +21,8 @@ using System.Xml.Linq;
 using Windows.ApplicationModel;
 using Com.AMap.Maps.Api;
 using Com.AMap.Maps.Api.Overlays;
+
+
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
 namespace 地图2
@@ -186,6 +188,10 @@ namespace 地图2
             map.Children.Add(dot1);
         }
 
+    
+} 
+        
+    
 
     }
-}
+
