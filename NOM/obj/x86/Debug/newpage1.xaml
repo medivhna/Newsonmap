@@ -21,6 +21,25 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Uid="Dislike" Icon="Bookmarks"          Label="收藏"/>
+            <AppBarButton x:Uid="Dislike" Icon="Redo"     Label="分享"/>
+            <AppBarToggleButton x:Uid="Shuffle" Icon="Refresh"  Label="刷新"/>
+            <AppBarToggleButton x:Uid="Shuffle" Icon="Comment"    Label="评论"/>
+
+
+
+
+            <AppBarSeparator/>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Uid="Add" Icon="Setting" Label="设置"/>
+
+
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ChildrenTransitions>
             <TransitionCollection>
@@ -51,5 +70,7 @@
       
         <WebView x:Name="wv1" Source="{Binding Link}" HorizontalAlignment="Stretch"      Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch"   Grid.ColumnSpan="3" Grid.RowSpan="3"  />
     </Grid>
+    
+    
 </Page>
 
