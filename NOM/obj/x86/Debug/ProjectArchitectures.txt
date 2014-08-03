@@ -1,1 +1,1 @@
-C:\Users\sorrow\Desktop\Project\Newsonmap-ad969a6ce7a8762ad58dc0308d8f4108470085cb\NOM\NOM.csproj;x86
+E:\Project\git\NOM\NOM.csproj;x86

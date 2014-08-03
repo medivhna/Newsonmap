@@ -1,10 +1,21 @@
-﻿using Microsoft.WindowsAzure.MobileServices;
+﻿using Com.AMap.Maps.Api;
+using Com.AMap.Maps.Api.BaseTypes;
+using Com.AMap.Maps.Api.Events;
+using Com.AMap.Maps.Api.Layers;
+using Com.AMap.Maps.Api.Overlays;
+using Com.AMap.Search.API;
+using Com.AMap.Search.API.Options;
+using Com.AMap.Search.API.Result;
+using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Xml;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml;
+using System.Xml.Linq;
+using Windows.ApplicationModel;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Popups;
@@ -16,18 +27,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using 地图2.Common;
-using Newtonsoft.Json;
-using System.Xml.Linq;
-using Windows.ApplicationModel;
-using Com.AMap.Maps.Api;
-using Com.AMap.Maps.Api.Overlays;
-using Com.AMap.Maps.Api.Layers;
-using Com.AMap.Maps.Api.BaseTypes;
-using Com.AMap.Maps.Api.Overlays;
-using Com.AMap.Maps.Api.Events;
-using Com.AMap.Search.API.Options;
-using Com.AMap.Search.API.Result;
-using Com.AMap.Search.API;
 
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
@@ -142,6 +141,7 @@ namespace 地图2
 
             picked = map.FromScreenPixelToLngLat(e.GetPosition(null));
             AMarker dot = new AMarker(picked);
+            map.Children.Clear();
             map.Children.Add(dot);
             map.Center = picked;
             x[0] = picked.LngX;
@@ -173,9 +173,9 @@ namespace 地图2
             }
             else
             {
-                lv1.Visibility = Windows.UI.Xaml.Visibility.Visible;
-                img1.Visibility = Windows.UI.Xaml.Visibility.Visible;
-                grid1.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                img1.Visibility = Visibility.Collapsed;
+                grid1.Visibility = Visibility.Collapsed;
+                lv1.Visibility = Visibility.Collapsed;
             }
         }
 
