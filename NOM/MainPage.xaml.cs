@@ -20,6 +20,7 @@ using Newtonsoft.Json;
 using System.Xml.Linq;
 using Windows.ApplicationModel;
 using Com.AMap.Maps.Api;
+using Com.AMap.Maps.Api.Overlays;
 using Com.AMap.Maps.Api.Layers;
 using Com.AMap.Maps.Api.BaseTypes;
 using Com.AMap.Maps.Api.Overlays;
@@ -27,49 +28,8 @@ using Com.AMap.Maps.Api.Events;
 using Com.AMap.Search.API.Options;
 using Com.AMap.Search.API.Result;
 using Com.AMap.Search.API;
-// “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
-/// <重要信息>
-/// 服务器地址  newsonmap.chinacloudsites.cn
-/// 高德地图激活码  b746eb6d990e1c31daa6c5c64aeb41f4         
-/// </重要信息>
-/*          #region Add Websites
-            Website.Add("beijing", "http://news.baidu.com/n?cmd=7&loc=0&name=%B1%B1%BE%A9&tn=rss");
-            Website.Add("shanghai", "http://news.baidu.com/n?cmd=7&loc=2354&name=%C9%CF%BA%A3&tn=rss");
-            Website.Add("tianjin", "http://news.baidu.com/n?cmd=7&loc=125&name=%CC%EC%BD%F2&tn=rss");
-            Website.Add("chongqing", "http://news.baidu.com/n?cmd=7&loc=6425&name=%D6%D8%C7%EC&tn=rss");
-            Website.Add("hebei", "http://news.baidu.com/n?cmd=7&loc=250&name=%BA%D3%B1%B1&tn=rss");
-            Website.Add("liaoning", "http://news.baidu.com/n?cmd=7&loc=1481&name=%C1%C9%C4%FE&tn=rss");
-            Website.Add("jilin", "http://news.baidu.com/n?cmd=7&loc=1783&name=%BC%AA%C1%D6&tn=rss");
-            Website.Add("heilongjiang", "http://news.baidu.com/n?cmd=7&loc=1967&name=%BA%DA%C1%FA%BD%AD&tn=rss");
-            Website.Add("shanxi", "http://news.baidu.com/n?cmd=7&loc=812&name=%C9%BD%CE%F7&tn=rss");
-            Website.Add("sichuan", "http://news.baidu.com/n?cmd=7&loc=6692&name=%CB%C4%B4%A8&tn=rss");
-            Website.Add("gansu", "http://news.baidu.com/n?cmd=7&loc=8534&name=%B8%CA%CB%E0&tn=rss");
-            Website.Add("shaanxi", "http://news.baidu.com/n?cmd=7&loc=8205&name=%C9%C2%CE%F7&tn=rss");
-            Website.Add("henan", "http://news.baidu.com/n?cmd=7&loc=4371&name=%BA%D3%C4%CF&tn=rss");
-            Website.Add("shandong", "http://news.baidu.com/n?cmd=7&loc=3996&name=%C9%BD%B6%AB&tn=rss");
-            Website.Add("hunan", "http://news.baidu.com/n?cmd=7&loc=5161&name=%BA%FE%C4%CF&tn=rss");
-            Website.Add("hubei", "http://news.baidu.com/n?cmd=7&loc=4811&name=%BA%FE%B1%B1&tn=rss");
-            Website.Add("jiangxi", "http://news.baidu.com/n?cmd=7&loc=3636&name=%BD%AD%CE%F7&tn=rss");
-            Website.Add("jiangsu", "http://news.baidu.com/n?cmd=7&loc=2493&name=%BD%AD%CB%D5&tn=rss");
-            Website.Add("zhejiang", "http://news.baidu.com/n?cmd=7&loc=2809&name=%D5%E3%BD%AD&tn=rss");
-            Website.Add("anhui", "http://news.baidu.com/n?cmd=7&loc=3072&name=%B0%B2%BB%D5&tn=rss");
-            Website.Add("fujian", "http://news.baidu.com/n?cmd=7&loc=3372&name=%B8%A3%BD%A8&tn=rss");
-            Website.Add("guangdong", "http://news.baidu.com/n?cmd=7&loc=5495&name=%B9%E3%B6%AB&tn=rss");
-            Website.Add("guangxi", "http://news.baidu.com/n?cmd=7&loc=5886&name=%B9%E3%CE%F7&tn=rss");
-            Website.Add("guizhou", "http://news.baidu.com/n?cmd=7&loc=7230&name=%B9%F3%D6%DD&tn=rss");
-            Website.Add("yunnan", "http://news.baidu.com/n?cmd=7&loc=7527&name=%D4%C6%C4%CF&tn=rss");
-            Website.Add("neimenggu", "http://news.baidu.com/n?cmd=7&loc=1167&name=%C4%DA%C3%C9%B9%C5&tn=rss");
-            Website.Add("qinghai", "http://news.baidu.com/n?cmd=7&loc=8782&name=%C7%E0%BA%A3&tn=rss");
-            Website.Add("ningxia", "http://news.baidu.com/n?cmd=7&loc=8907&name=%C4%FE%CF%C4&tn=rss");
-            Website.Add("xinjiang", "http://news.baidu.com/n?cmd=7&loc=9001&name=%D0%C2%BD%AE&tn=rss");
-            Website.Add("xizang", "http://news.baidu.com/n?cmd=7&loc=7915&name=%CE%F7%B2%D8&tn=rss");
-            Website.Add("xianggang", "http://news.baidu.com/n?cmd=7&loc=9337&name=%CF%E3%B8%DB&tn=rss");
-            Website.Add("aomen", "http://news.baidu.com/n?cmd=7&loc=9436&name=%B0%C4%C3%C5&tn=rss");
-            Website.Add("taiwan", "http://news.baidu.com/n?cmd=7&loc=9442&name=%CC%A8%CD%E5&tn=rss");
-            Website.Add("hainan", "http://news.baidu.com/n?cmd=7&loc=6245&name=%BA%A3%C4%CF&tn=rss");
-            #endregion
- */
+// “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
 namespace 地图2
 {
@@ -81,8 +41,9 @@ namespace 地图2
         public MainPage()
         {
             this.InitializeComponent();
-
+            map.Tapped += map_Tapped;
         }
+
 
         private async void InsertTodoItem(Item item)
         {
@@ -104,16 +65,9 @@ namespace 地图2
             await itemTable.UpdateAsync(item);
         }
 
-        #region Will be deleted
-        //public static News selected;
-        //Dictionary<string, string> Website = new System.Collections.Generic.Dictionary<string, string>();
-        #endregion
-
         // 通用项目定义
         List<News> news = new List<News>();
         List<string> distinct = new List<string>();
-        
-        
 
         private MobileServiceCollection<Item, Item> items;
         private IMobileServiceTable<Item> itemTable =
@@ -142,7 +96,6 @@ namespace 地图2
                 await dialog.ShowAsync();
             }
         }
-
         // 页面初始化
         protected override /*async*/ void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -169,37 +122,14 @@ namespace 地图2
             public bool Complete { get; set; }
         }
 
-        #region Will be replaced
-        //// Will be replaced
-        //private void Buttons_Clicked(object sender, RoutedEventArgs e)
-        //{
-        //    Button ClickedButton = (Button)sender;
-        //    string peopleXMLPath = Website[ClickedButton.Name];
-        //    // test on news of Beijing
-        //    XDocument loadedData = XDocument.Load(peopleXMLPath);
-
-        //    var data = from query in loadedData.Descendants("item")
-        //               select new News
-        //               {
-        //                   Title = (string)query.Element("title"),
-        //                   Link = (string)query.Element("link"),
-        //                   Description = (string)query.Element("description"),
-        //                   Pubdate = (string)query.Element("pubDate"),
-        //                   Source = (string)query.Element("source"),
-        //               };
-        //   // lv1.DataContext = data;
-        //}
-        #endregion
 
         // 为地图右键设置预留方法，未实现
         private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
-            //lv1.Visibility = Visibility.Collapsed;
-
-
-
+            img1.Visibility = Visibility.Collapsed;
+            grid1.Visibility = Visibility.Collapsed;
+            lv1.Visibility = Visibility.Collapsed;
         }
-
 
         // 点击事件处理
         ALngLat picked;
@@ -222,6 +152,9 @@ namespace 地图2
             rgo.YCoors = y;
 
             ReverseGeoCodingResult rgcs = await ReGeoCode.GeoCodeToAddressWithOption(rgo);
+            lv1.Visibility = Visibility.Visible;
+            img1.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            grid1.Visibility = Windows.UI.Xaml.Visibility.Visible;
             if (rgcs.Erro == null && rgcs.resultList != null)
             {
                 IEnumerable<ReverseGeocodingInfo> reverseGeocodeResult = rgcs.resultList;
@@ -235,11 +168,17 @@ namespace 地图2
                 locat = search(tmp[0]);  // 只查找第一个地址的省份信息，准确度待考量
                 Predicate<News> match = findAll;
                 select = news.FindAll(match);
-                //lv1.DataContext = select;
-                //lv1.Visibility = Visibility.Visible;
+                lv1.DataContext = select;
+
+            }
+            else
+            {
+                lv1.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                img1.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                grid1.Visibility = Windows.UI.Xaml.Visibility.Visible;
             }
         }
-        
+
         // 用于查找判断的函数
         private bool findAll(News obj)
         {
@@ -256,13 +195,18 @@ namespace 地图2
             return null;
         }
 
-        // 点击listview，等待完成
-        //News selected = new News();
-        //private void ListView_ItemClick(object sender, ItemClickEventArgs e)
-        //{
-        //    selected = e.ClickedItem as News;
-        //    Frame.Navigate(typeof(newpage1));
-        //}
+         //点击listview，等待完成
+        public static News selected = new News();
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            selected = e.ClickedItem as News;
+            Frame.Navigate(typeof(newpage1));
+        }
+
+    
+} 
+        
+    
 
     }
-}
+

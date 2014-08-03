@@ -5,13 +5,137 @@
     xmlns:local="using:地图2"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    xmlns:amap="using:Com.AMap.Maps.Api">
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <amap:AMap x:ConnectionId='0' x:Name="map"                               >
-            
-        </amap:AMap>
+    mc:Ignorable="d">
+    <Page.Resources >
+        <Style TargetType="Button" x:Key="pro" >
+            <Setter Property="Background" Value="Red" >
+            </Setter>
+            <Setter Property="Height" Value=" 15"></Setter>
+            <Setter Property="BorderThickness" Value=" 0"></Setter>
+            <Setter Property="Width" Value=" 15"></Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="news">
+
+
+            <Setter Property="BorderThickness" Value=" 0"></Setter>
+            <Setter Property="Height" Value=" 70"></Setter>
+            <Setter Property="Width" Value=" 367"></Setter>
+
+        </Style>
+    </Page.Resources>
+
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid >
+            <Grid.RowDefinitions >
+
+
+
+
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions >
+
+
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="9*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+
+
+            </Grid.ColumnDefinitions>
+            <Image Source="地图2.jpg" Grid.ColumnSpan="30" Grid.RowSpan="27" Stretch="Fill" ></Image>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="xinjiang" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Right"                               VerticalAlignment="Center"           ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="xizang" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Right" VerticalAlignment="Center"                           ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="qinghai" Grid.Column="7" Grid.Row="8" HorizontalAlignment="Right"  VerticalAlignment="Center"                          ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="sichuan"  Grid.Column="10" Grid.Row="10" HorizontalAlignment="Center"     VerticalAlignment="Bottom"                          ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="yunnan" Grid.Column="9" Grid.Row="13" HorizontalAlignment="Center"     VerticalAlignment="Center"                             ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="gansu" Grid.Column="11" Grid.Row="8" HorizontalAlignment="Left"   VerticalAlignment="Center"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="ningxia" Grid.Column ="11" Grid.Row="7" HorizontalAlignment="Right" VerticalAlignment="Top"                          ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="shaanxi" Grid.Column="12" Grid.Row="9" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="chongqing" Grid.Column="12" Grid.Row="10" VerticalAlignment="Bottom"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="guizhou" Grid.Column="12" Grid.Row="12" VerticalAlignment="Top"  HorizontalAlignment="Center"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="guangxi" Grid.Column="13" Grid.Row="13" VerticalAlignment="Bottom" HorizontalAlignment="Center"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="neimenggu" Grid.Column="16" Grid.Row="4" HorizontalAlignment="Center"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="shanxi"  Grid.Column="14" Grid.Row="7" HorizontalAlignment="Center"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="henan" Grid.Column="14" Grid.Row="8" HorizontalAlignment="Right"   VerticalAlignment="Bottom"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="hubei" Grid.Column="15" Grid.Row="10" HorizontalAlignment="Left" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="hunan" Grid.Column="14" Grid.Row="11" HorizontalAlignment="Right"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="hainan" Grid.Column="14" Grid.Row="15" HorizontalAlignment="Left" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="beijing" Grid.Column="14" Grid.Row="5" HorizontalAlignment="Right" VerticalAlignment="Bottom"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="hebei" Grid.Column="15" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="jiangxi" Grid.Column="15" Grid.Row="11" HorizontalAlignment="Right"  VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="guangdong" Grid.Column="15" Grid.Row="13" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="tianjin" Grid.Column="15" Grid.Row="6" HorizontalAlignment="Right"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="shandong" Grid.Column="16" Grid.Row="7" HorizontalAlignment="Center"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="anhui" Grid.Column="16" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="jiangsu" Grid.Column="17" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Top"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="zhejiang" Grid.Column="17" Grid.Row="10" VerticalAlignment="Bottom"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="fujian" Grid.Column="17" Grid.Row="11"  VerticalAlignment="Bottom"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="liaoning" Grid.Column="17" Grid.Row="5" VerticalAlignment="Top" HorizontalAlignment="Right"                         ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="jilin" Grid.Column="18" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom"                           ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="heilongjiang" Grid.Column="18" Grid.Row="2" HorizontalAlignment="Center"                        ></Button>
+            <Button x:ConnectionId='0' Style="{StaticResource pro }" x:Name="shanghai" Grid.Column="18" Grid.Row="9" VerticalAlignment="Bottom"                        ></Button>
+            <Button x:ConnectionId='0'  Style="{StaticResource pro }" x:Name="taiwan" Grid.Column="18" Grid.Row="12" HorizontalAlignment="Right"                        ></Button>
+            <TextBlock Text="NEWS ON MAP" Grid.Column="22" Grid.Row="1"  Grid.RowSpan="2" Grid.ColumnSpan="1"  FontSize="68" HorizontalAlignment="Center"  Foreground="Orange"  FontFamily="Agency FB"></TextBlock>
+            <Border  x:Name ="border1" Height=" 5" Grid.Column="22" Grid.Row="3" Background="DarkCyan"  />
+            <TextBlock  Grid.Column="22" Grid.Row="4" Grid.RowSpan="1" FontSize="40" FontWeight="Bold" Text="Today's News" HorizontalAlignment="Center" ></TextBlock>
+            <ListView x:ConnectionId='0' x:Name="lv1" Grid.Column="22" Grid.Row="6" ItemsSource="{Binding}" IsItemClickEnabled="True"                                SelectionMode="None" Grid.RowSpan="10" RenderTransformOrigin="0.5,0.5">
+                <!--<ListView.RenderTransform>
+                    <CompositeTransform ScaleX="-1"/>
+                </ListView.RenderTransform>-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}" FontSize="20" TextAlignment="Center"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+        </Grid>
+
+
     </Grid>
 </Page>
-<!--Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd-->
 

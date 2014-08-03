@@ -66,6 +66,10 @@ namespace 地图2.Common
             set { source = value; }
         }
 
+        public News()
+        {
+
+        }
         public News(AMarker dot)
         {
             this.dot = dot;
