@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Com.AMap.Maps;
 using Com.AMap.Maps.Api;
 using Com.AMap.Maps.Api.BaseTypes;
+using Com.AMap.Maps.Api.Overlays;
 namespace 地图2.Common
 {
     public class News
     {
-        string localId;
+        AMarker dot;
+        string local;
         string timeId;
         string Id;
         string title;
@@ -20,6 +23,18 @@ namespace 地图2.Common
         string pubdate;
         string source;
         ALngLat location;
+
+        public string Local
+        {
+            get
+            {
+                return local;
+            }
+            set
+            {
+                local = value;
+            }
+        }
 
         public string Title
         {
@@ -49,6 +64,11 @@ namespace 地图2.Common
         {
             get { return source; }
             set { source = value; }
+        }
+
+        public News(AMarker dot)
+        {
+            this.dot = dot;
         }
     }
 }

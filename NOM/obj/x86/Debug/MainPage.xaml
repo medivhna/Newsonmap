@@ -8,9 +8,10 @@
     mc:Ignorable="d"
     xmlns:amap="using:Com.AMap.Maps.Api">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <amap:AMap x:ConnectionId='1' x:Name="map"                               >
-            
+        <amap:AMap x:ConnectionId='0' x:Name="map"                                                  >
+           
         </amap:AMap>
+        <ListView Canvas.ZIndex="-1" Height="768" Canvas.Left="0" Canvas.Top="0" Width="200" />
     </Grid>
 </Page>
 <!--Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd-->

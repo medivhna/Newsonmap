@@ -20,8 +20,13 @@ using Newtonsoft.Json;
 using System.Xml.Linq;
 using Windows.ApplicationModel;
 using Com.AMap.Maps.Api;
+using Com.AMap.Maps.Api.Layers;
 using Com.AMap.Maps.Api.BaseTypes;
 using Com.AMap.Maps.Api.Overlays;
+using Com.AMap.Maps.Api.Events;
+using Com.AMap.Search.API.Options;
+using Com.AMap.Search.API.Result;
+using Com.AMap.Search.API;
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
 /// <重要信息>
@@ -77,26 +82,7 @@ namespace 地图2
         {
             this.InitializeComponent();
 
-            // 为地图加载事件定义动作
-            map.Loaded += map_Loaded;
         }
-
-        // 显示locat周围distant距离内的新闻点，未实现
-        private void show(ALngLat locat, int distant = 1)
-        {
-            //
-        }
-
-        // 加载地图时显示新闻,未实现
-        private void map_Loaded(object sender, RoutedEventArgs e)
-        {
-            // get函数未实现,用于从服务器获得新闻，大概为异步操作
-            // get();
-
-            // 初始化
-            show(map.Center);
-        }
-
 
         private async void InsertTodoItem(Item item)
         {
@@ -124,7 +110,10 @@ namespace 地图2
         #endregion
 
         // 通用项目定义
-        Dictionary<AMarker, News> List = new Dictionary<AMarker, News>();
+        List<News> news = new List<News>();
+        List<string> distinct = new List<string>();
+        
+        
 
         private MobileServiceCollection<Item, Item> items;
         private IMobileServiceTable<Item> itemTable =
@@ -162,12 +151,10 @@ namespace 地图2
 
             map.Zoom = 4;
             map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
-            AMarker dot = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34));
-            map.Children.Add(dot);
-            dot.Tapped += new TappedEventHandler(this.dot_tapped);
 
-
-
+            #region AddDistinct
+            distinct.Add("北京"); distinct.Add("上海"); distinct.Add("天津"); distinct.Add("重庆"); distinct.Add("河北"); distinct.Add("辽宁"); distinct.Add("吉林"); distinct.Add("黑龙江"); distinct.Add("山西"); distinct.Add("四川"); distinct.Add("甘肃"); distinct.Add("陕西"); distinct.Add("河南"); distinct.Add("山东"); distinct.Add("湖南"); distinct.Add("湖北"); distinct.Add("江西"); distinct.Add("江苏"); distinct.Add("浙江"); distinct.Add("安徽"); distinct.Add("福建"); distinct.Add("广东"); distinct.Add("广西"); distinct.Add("贵州"); distinct.Add("云南"); distinct.Add("内蒙古"); distinct.Add("青海"); distinct.Add("海南"); distinct.Add("宁夏"); distinct.Add("新疆"); distinct.Add("西藏"); distinct.Add("香港"); distinct.Add("澳门"); distinct.Add("台湾");
+            #endregion
         }
 
 
@@ -183,13 +170,6 @@ namespace 地图2
         }
 
         #region Will be replaced
-        //// Will be replaced
-        //private void ListView_ItemClick(object sender, ItemClickEventArgs e)
-        //{
-        //    selected = e.ClickedItem as News;
-        //    Frame.Navigate(typeof(newpage1));
-        //}
-
         //// Will be replaced
         //private void Buttons_Clicked(object sender, RoutedEventArgs e)
         //{
@@ -214,16 +194,75 @@ namespace 地图2
         // 为地图右键设置预留方法，未实现
         private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
+            //lv1.Visibility = Visibility.Collapsed;
+
+
 
         }
 
-        // 事件处理，未实现
-        private void dot_tapped(object sender, TappedRoutedEventArgs e)
+
+        // 点击事件处理
+        ALngLat picked;
+        string locat = null;
+        List<News> select = new List<News>();
+        private async void map_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            AMarker dot1 = new AMarker(new Com.AMap.Maps.Api.BaseTypes.ALngLat(107, 35));
-            map.Children.Add(dot1);
+            double[] x = new double[1];
+            double[] y = new double[1];
+
+            picked = map.FromScreenPixelToLngLat(e.GetPosition(null));
+            AMarker dot = new AMarker(picked);
+            map.Children.Add(dot);
+            map.Center = picked;
+            x[0] = picked.LngX;
+            y[0] = picked.LatY;
+
+            ReverseGeocodingOption rgo = new ReverseGeocodingOption();
+            rgo.XCoors = x;
+            rgo.YCoors = y;
+
+            ReverseGeoCodingResult rgcs = await ReGeoCode.GeoCodeToAddressWithOption(rgo);
+            if (rgcs.Erro == null && rgcs.resultList != null)
+            {
+                IEnumerable<ReverseGeocodingInfo> reverseGeocodeResult = rgcs.resultList;
+                List<string> localPosition = new List<string>();
+                foreach (ReverseGeocodingInfo r in reverseGeocodeResult)
+                {
+                    localPosition.Add(r.ToString());
+                    break;
+                }
+                string[] tmp = localPosition.ToArray();
+                locat = search(tmp[0]);  // 只查找第一个地址的省份信息，准确度待考量
+                Predicate<News> match = findAll;
+                select = news.FindAll(match);
+                //lv1.DataContext = select;
+                //lv1.Visibility = Visibility.Visible;
+            }
+        }
+        
+        // 用于查找判断的函数
+        private bool findAll(News obj)
+        {
+            return obj.Local == locat;
+        }
+        // searching
+        private string search(string s)
+        {
+            foreach (string a in distinct)
+            {
+                if (s.Contains(a))
+                    return a;
+            }
+            return null;
         }
 
+        // 点击listview，等待完成
+        //News selected = new News();
+        //private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        //{
+        //    selected = e.ClickedItem as News;
+        //    Frame.Navigate(typeof(newpage1));
+        //}
 
     }
 }

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    此包清单文件由生成过程生成。
+
+    如果重新生成此文件，将丢失对其所做的更改。若要更正此文件中的错误，请编辑源 .appxmanifest 文件。
+
+    有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="51574Cappuccinos.NewsOnMap" Publisher="CN=855A4A8E-3417-490F-84F7-809761AA72C6" Version="1.1.0.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>NewsOnMap</DisplayName>
+    <PublisherDisplayName>Cappuccino's</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ZH-CN" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="地图2.exe" EntryPoint="地图2.App">
+      <m2:VisualElements DisplayName="NewsOnMap" Square150x150Logo="Assets\Square150x150Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="地图2" ForegroundText="light" BackgroundColor="#d9522b" ToastCapable="false">
+        <m2:DefaultTile ShortName="logo" Square70x70Logo="Assets\Square70x70Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#d9522b" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="portrait" />
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="portraitFlipped" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="tile">
+            <DisplayName>tile</DisplayName>
+            <SupportedFileTypes>
+              <FileType>.dat</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.VCLibs.120.00.Debug" MinVersion="12.0.21005.1" />
+  </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.RouteSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.POISearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.BusRouteSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Cross" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusSegment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSegment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusRouteSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoCodingResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Bus" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.District" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoPOI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Province" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.City" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeocodingInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Location" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeoCodingResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RGCSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Station" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POISearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLineSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Road" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.GeoCodingOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.RouteSearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.POISearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusLineSearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusRouteSearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.RGCSearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.ReverseGeocodingOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.GeoCode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.RGCSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.BusLineSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.AMapSearchConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.ReGeoCode" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
+    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.21005.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.21005.1" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+  </build:Metadata>
+</Package>

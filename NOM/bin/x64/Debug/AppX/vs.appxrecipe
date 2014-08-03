@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>悲月</Machine>
+    <WindowsUser>sorrow</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>51574Cappuccinos.NewsOnMap</PackageIdentityName>
+    <RegisteredManifestChecksum>D1BDF31401D6F41910460B2B8FE8D0CFEFAA33D586EAE7BE5DF852763525B0DA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>51574Cappuccinos.NewsOnMap_1.1.0.0_x64__prcb7g4jatcsy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>51574Cappuccinos.NewsOnMap_prcb7g4jatcsy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>51574Cappuccinos.NewsOnMap</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=855A4A8E-3417-490F-84F7-809761AA72C6</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Project\git\NOM\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-29T06:04:12.531</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x64\Debug\地图2.exe">
+      <PackagePath>地图2.exe</PackagePath>
+      <Modified>2014-07-29T06:49:58.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
+      <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
+      <Modified>2013-12-24T03:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+      <Modified>2014-06-08T06:03:12.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+      <Modified>2014-06-08T06:03:12.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-06-08T06:03:12.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-06-08T06:03:12.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-06-08T06:03:12.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Search.API.winmd">
+      <PackagePath>Com.AMap.Search.API.winmd</PackagePath>
+      <Modified>2013-12-24T03:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <Modified>2014-06-08T06:03:12.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-140.png">
+      <PackagePath>Assets\Square150x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-180.png">
+      <PackagePath>Assets\Square150x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-80.png">
+      <PackagePath>Assets\Square150x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-08T06:03:12.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-06-08T06:03:12.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\地图2.jpg">
+      <PackagePath>地图2.jpg</PackagePath>
+      <Modified>2014-06-08T06:03:12.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-07-29T06:04:09.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-07-29T06:04:09.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x64\Debug\newpage1.xbf">
+      <PackagePath>newpage1.xbf</PackagePath>
+      <Modified>2014-07-29T06:04:09.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-07-29T06:47:44.629</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
