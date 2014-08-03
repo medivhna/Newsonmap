@@ -1,166 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DUO</Machine>
-    <WindowsUser>tongz_000</WindowsUser>
-    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <Machine>悲月</Machine>
+    <WindowsUser>sorrow</WindowsUser>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>51574Cappuccinos.NewsOnMap</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\地图2.exe">
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
-      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
-      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\Com.AMap.Search.API.winmd">
-      <PackagePath>Com.AMap.Search.API.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\Com.AMap.Maps.Api.dll">
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Maps.Api.dll">
       <PackagePath>Com.AMap.Maps.Api.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+    <AppxPackagedFile Include="E:\Project\git\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+    <AppxPackagedFile Include="E:\Project\git\packages\WindowsAzure.MobileServices.1.1.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="E:\Project\git\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
+    <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
+    <AppxPackagedFile Include="E:\Project\git\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
-      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+    <AppxPackagedFile Include="E:\Project\map\Com.AMap.Search.API.winmd">
+      <PackagePath>Com.AMap.Search.API.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
-      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
-      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
-      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\BadgeLogo.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-140.png">
       <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\BadgeLogo.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\BadgeLogo.scale-180.png">
       <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Logo.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-140.png">
       <PackagePath>Assets\Logo.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Logo.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-180.png">
       <PackagePath>Assets\Logo.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Logo.scale-80.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Logo.scale-80.png">
       <PackagePath>Assets\Logo.scale-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\SplashScreen.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-140.png">
       <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\SplashScreen.scale-180.png">
       <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square150x150Logo.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-140.png">
       <PackagePath>Assets\Square150x150Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square150x150Logo.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-180.png">
       <PackagePath>Assets\Square150x150Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square150x150Logo.scale-80.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square150x150Logo.scale-80.png">
       <PackagePath>Assets\Square150x150Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-100.png">
       <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square70x70Logo.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-140.png">
       <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square70x70Logo.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-180.png">
       <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\Square70x70Logo.scale-80.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\Square70x70Logo.scale-80.png">
       <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\StoreLogo.scale-140.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-140.png">
       <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Assets\StoreLogo.scale-180.png">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Assets\StoreLogo.scale-180.png">
       <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\Common\ReadMe.txt">
+    <AppxPackagedFile Include="E:\Project\git\NOM\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\listview.gif">
-      <PackagePath>listview.gif</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\地图2.jpg">
+    <AppxPackagedFile Include="E:\Project\git\NOM\地图2.jpg">
       <PackagePath>地图2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\newpage1.xbf">
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\地图2.xr.xml">
-      <PackagePath>地图2.xr.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -58,53 +58,42 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.XamlAdControl_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdControl" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdSettingsFlyout" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.JSONWrapper" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdErrorEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdPlacement" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.SdkInfoProvider" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.UserInfoProvider" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.RendererOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.Advertisement" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLine" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSearchResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POI" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.District" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Province" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoCodingResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeoCodingResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Road" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RGCSearchResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSegment" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoPOI" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusSegment" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusRouteSearchResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Location" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Bus" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLineSearchResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeocodingInfo" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POISearchResult" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.City" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Cross" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Station" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.RouteSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.POISearch" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.BusRouteSearch" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.GeoCode" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusRouteSearchOption" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusLineSearchOption" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.POISearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Cross" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusSegment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RouteSegment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusRouteSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoCodingResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Bus" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.District" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.GeoPOI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Province" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.City" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeocodingInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Location" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.ReverseGeoCodingResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.RGCSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Station" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.POISearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.BusLineSearchResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Result.Road" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.GeoCodingOption" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.RouteSearchOption" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.ReverseGeocodingOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.POISearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusLineSearchOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.BusRouteSearchOption" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.RGCSearchOption" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.POISearch" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.BusLineSearch" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.ReGeoCode" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.RouteSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.Options.ReverseGeocodingOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.GeoCode" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.RGCSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.BusLineSearch" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Com.AMap.Search.API.AMapSearchConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Com.AMap.Search.API.ReGeoCode" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -113,9 +102,8 @@
     <build:Item Name="VisualStudio" Version="12.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
     <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.30501.0" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
-    <build:Item Name="MSAdvertisingXaml" Version="8.1" />
-    <build:Item Name="MakePri.exe" Version="6.3.9600.17029 (winblue_gdr.140219-1702)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.21005.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.21005.1" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
   </build:Metadata>
 </Package>

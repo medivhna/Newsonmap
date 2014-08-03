@@ -8,67 +8,10 @@
     mc:Ignorable="d"
     xmlns:amap="using:Com.AMap.Maps.Api">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-<<<<<<< HEAD
         <amap:AMap x:Name="map" RightTapped="map_RightTapped" Tapped="map_Tapped">
            
         </amap:AMap>
         <ListView Canvas.ZIndex="-1" Height="768" Canvas.Left="0" Canvas.Top="0" Width="200" />
-=======
-        <Grid  Canvas.ZIndex="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition  Width="10*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="*"/>
-
-            </Grid.ColumnDefinitions>
-            
-            <Grid.RowDefinitions >
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-
-            <amap:AMap x:Name="map" RightTapped="map_RightTapped" Canvas.ZIndex="0" Grid.ColumnSpan="3" Grid.RowSpan="3" >
-            </amap:AMap>
-
-
-            <Grid Background="White" Opacity="0.7" Grid.RowSpan="2" Grid.Column="1"></Grid>    
-            <Image Source="listview.gif" Grid.Column ="1"></Image>
-            <ListView  Grid.Column="1" Grid.Row="1" ></ListView>
-            
-
-        </Grid>
-
-
-
-
-
-
->>>>>>> ad969a6ce7a8762ad58dc0308d8f4108470085cb
     </Grid>
-
-
-
-    <Page.BottomAppBar>
-        <CommandBar>
-            <AppBarButton x:Uid="Dislike" Icon="Add" Label="放大"/>
-            <AppBarButton x:Uid="Dislike" Icon="Bookmarks" Label="收藏地区"/>
-            <AppBarButton x:Uid="Dislike" Icon="Remove"   Label="缩小"/>
-            <AppBarToggleButton x:Uid="Shuffle" Icon="Refresh"  Label="刷新"/>
-
-
-
-
-            <AppBarSeparator/>
-
-            <CommandBar.SecondaryCommands>
-                <AppBarButton x:Uid="Add" Icon="Setting" Label="设置"/>
-
-
-            </CommandBar.SecondaryCommands>
-        </CommandBar>
-    </Page.BottomAppBar>
-
 </Page>
 <!--Am4aeEH1XwdIy4CsjtECQiHeW59MwiIH8GP7tMCijLNaQWd5hi-PRZdzUHDC03gd-->

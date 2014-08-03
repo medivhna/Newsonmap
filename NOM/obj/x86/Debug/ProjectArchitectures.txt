@@ -1,1 +1,1 @@
-C:\Users\tongz_000\Documents\GitHub\Newsonmap\NOM\NOM.csproj;x86
+E:\Project\git\NOM\NOM.csproj;x86
