@@ -95,6 +95,7 @@ namespace 地图2
                 await dialog.ShowAsync();
             }
         }
+
         // 页面初始化
         protected override /*async*/ void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -125,9 +126,7 @@ namespace 地图2
         // 为地图右键设置预留方法，未实现
         private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
-            img1.Visibility = Visibility.Collapsed;
-            grid1.Visibility = Visibility.Collapsed;
-            lv1.Visibility = Visibility.Collapsed;
+
         }
 
         // 点击事件处理
@@ -141,6 +140,7 @@ namespace 地图2
 
             picked = map.FromScreenPixelToLngLat(e.GetPosition(null));
             AMarker dot = new AMarker(picked);
+            dot.IconURI = new Uri("//定位.png");
             map.Children.Clear();
             map.Children.Add(dot);
             map.Center = picked;
@@ -151,11 +151,12 @@ namespace 地图2
             rgo.XCoors = x;
             rgo.YCoors = y;
 
-            ReverseGeoCodingResult rgcs = await ReGeoCode.GeoCodeToAddressWithOption(rgo);
             lv1.Visibility = Visibility.Visible;
             img1.Visibility = Windows.UI.Xaml.Visibility.Visible;
             grid1.Visibility = Windows.UI.Xaml.Visibility.Visible;
-            if (rgcs.Erro == null && rgcs.resultList != null)
+            ReverseGeoCodingResult rgcs = await ReGeoCode.GeoCodeToAddressWithOption(rgo);
+
+            if (rgcs.Erro == null && rgcs.resultList != null&&false)
             {
                 IEnumerable<ReverseGeocodingInfo> reverseGeocodeResult = rgcs.resultList;
                 List<string> localPosition = new List<string>();
@@ -173,9 +174,9 @@ namespace 地图2
             }
             else
             {
-                img1.Visibility = Visibility.Collapsed;
-                grid1.Visibility = Visibility.Collapsed;
-                lv1.Visibility = Visibility.Collapsed;
+                //img1.Visibility = Visibility.Collapsed;
+                //grid1.Visibility = Visibility.Collapsed;
+                //lv1.Visibility = Visibility.Collapsed;
             }
         }
 
