@@ -41,6 +41,8 @@ namespace 地图2
         {
             this.InitializeComponent();
             map.Tapped += map_Tapped;
+            Com.AMap.Maps.Api.AMapConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
+            Com.AMap.Search.API.AMapSearchConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
         }
 
 
@@ -66,7 +68,7 @@ namespace 地图2
 
         // 通用项目定义
         List<News> news = new List<News>();
-        List<string> distinct = new List<string>();
+        Dictionary<string,int> distinct = new Dictionary<string,int>();
 
         private MobileServiceCollection<Item, Item> items;
         private IMobileServiceTable<Item> itemTable =
@@ -100,13 +102,13 @@ namespace 地图2
         protected override /*async*/ void OnNavigatedTo(NavigationEventArgs e)
         {
             //await Authenticate();
-            Com.AMap.Maps.Api.AMapConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
+
 
             map.Zoom = 4;
             map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
 
             #region AddDistinct
-            distinct.Add("北京"); distinct.Add("上海"); distinct.Add("天津"); distinct.Add("重庆"); distinct.Add("河北"); distinct.Add("辽宁"); distinct.Add("吉林"); distinct.Add("黑龙江"); distinct.Add("山西"); distinct.Add("四川"); distinct.Add("甘肃"); distinct.Add("陕西"); distinct.Add("河南"); distinct.Add("山东"); distinct.Add("湖南"); distinct.Add("湖北"); distinct.Add("江西"); distinct.Add("江苏"); distinct.Add("浙江"); distinct.Add("安徽"); distinct.Add("福建"); distinct.Add("广东"); distinct.Add("广西"); distinct.Add("贵州"); distinct.Add("云南"); distinct.Add("内蒙古"); distinct.Add("青海"); distinct.Add("海南"); distinct.Add("宁夏"); distinct.Add("新疆"); distinct.Add("西藏"); distinct.Add("香港"); distinct.Add("澳门"); distinct.Add("台湾");
+            distinct.Add("北京市",1); distinct.Add("上海市",0); distinct.Add("天津市",0); distinct.Add("重庆",0); distinct.Add("河北",0); distinct.Add("辽宁",0); distinct.Add("吉林",0); distinct.Add("黑龙江",0); distinct.Add("山西",0); distinct.Add("四川",0); distinct.Add("甘肃",0); distinct.Add("陕西",2); distinct.Add("河南",0); distinct.Add("山东",3); distinct.Add("湖南",0); distinct.Add("湖北",0); distinct.Add("江西",0); distinct.Add("江苏",0); distinct.Add("浙江",0); distinct.Add("安徽",0); distinct.Add("福建",0); distinct.Add("广东",0); distinct.Add("广西",0); distinct.Add("贵州",0); distinct.Add("云南",0); distinct.Add("内蒙古",0); distinct.Add("青海",0); distinct.Add("海南",0); distinct.Add("宁夏",0); distinct.Add("新疆",0); distinct.Add("西藏",0); distinct.Add("香港",0); distinct.Add("澳门",0); distinct.Add("台湾",0);
             #endregion
         }
 
@@ -131,8 +133,7 @@ namespace 地图2
 
         // 点击事件处理
         ALngLat picked;
-        string locat = null;
-        List<News> select = new List<News>();
+        int locatId = 0;
         private async void map_Tapped(object sender, TappedRoutedEventArgs e)
         {
             double[] x = new double[1];
@@ -156,7 +157,7 @@ namespace 地图2
             grid1.Visibility = Windows.UI.Xaml.Visibility.Visible;
             ReverseGeoCodingResult rgcs = await ReGeoCode.GeoCodeToAddressWithOption(rgo);
 
-            if (rgcs.Erro == null && rgcs.resultList != null&&false)
+            if (rgcs.Erro == null && rgcs.resultList != null)
             {
                 IEnumerable<ReverseGeocodingInfo> reverseGeocodeResult = rgcs.resultList;
                 List<string> localPosition = new List<string>();
@@ -166,29 +167,44 @@ namespace 地图2
                     break;
                 }
                 string[] tmp = localPosition.ToArray();
-                locat = search(tmp[0]);  // 只查找第一个地址的省份信息，准确度待考量
-                Predicate<News> match = findAll;
-                select = news.FindAll(match);
-                lv1.DataContext = select;
+
+                locatId = distinct[search(tmp[0])];  // 只查找第一个地址的省份信息，准确度待考量
+                string peopleXMLPath = "http://newsonmap.chinacloudsites.cn/getNewsPage?page="+"0"+"&maxNums="+"5"+"&typeId="+(locatId.ToString())+"&pic="+"true"+"";
+                // test on news of Beijing
+                XDocument loadedData = XDocument.Load(peopleXMLPath);
+
+                var data = from query in loadedData.Descendants("item")
+                           select new News
+                           {
+                               Title = (string)query.Element("title"),
+                               Pubdate = (string)query.Element("pubDate"),
+                               TypeId = (int)query.Element("typeId"),
+                               Id = (string)query.Element("_id"),
+                               Page = (int)query.Element("page"),
+                               Descimg = (string)query.Element("descimg")
+                           };
+
+                lv1.DataContext = data;
 
             }
             else
             {
-                //img1.Visibility = Visibility.Collapsed;
-                //grid1.Visibility = Visibility.Collapsed;
-                //lv1.Visibility = Visibility.Collapsed;
+                img1.Visibility = Visibility.Collapsed;
+                grid1.Visibility = Visibility.Collapsed;
+                lv1.Visibility = Visibility.Collapsed;
             }
         }
 
         // 用于查找判断的函数
         private bool findAll(News obj)
         {
-            return obj.Local == locat;
+            return obj.TypeId == locatId;
         }
+
         // searching
         private string search(string s)
         {
-            foreach (string a in distinct)
+            foreach (string a in distinct.Keys)
             {
                 if (s.Contains(a))
                     return a;

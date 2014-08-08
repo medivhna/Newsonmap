@@ -11,69 +11,78 @@ namespace 地图2.Common
 {
     public class News
     {
-        AMarker dot;
-        string local;
-        string timeId;
-        string Id;
+
         string title;
-        bool isImg;
-        string imgPath;
-        string link;
-        string description;
-        string pubdate;
-        string source;
-        ALngLat location;
-
-        public string Local
-        {
-            get
-            {
-                return local;
-            }
-            set
-            {
-                local = value;
-            }
-        }
-
         public string Title
         {
             get { return title; }
             set { title = value; }
         }
 
-        public string Link
+        string _id;
+        public string Id
         {
-            get { return link; }
-            set { link = value; }
+            get { return _id; }
+            set { _id = value; }
         }
 
-        public string Description
-        {
-            get { return description; }
-            set { description = value; }
-        }
-
+        string pubDate;
         public string Pubdate
         {
-            get { return pubdate; }
-            set { pubdate = value; }
+            get { return pubDate; }
+            set { pubDate = value; }
         }
 
-        public string Source
+        bool isImg;
+        public bool IsImg
         {
-            get { return source; }
-            set { source = value; }
+            get { return isImg; }
+            set { isImg = value; }
         }
+
+        string imgPath;
+        public string ImgPath
+        {
+            get { return imgPath; }
+            set { imgPath = value; }
+        }
+
+        int typeId;
+        public int TypeId
+        {
+            get { return typeId; }
+            set { typeId = value; }
+        }
+
+        string context;
+        public string Context
+        {
+            get { return context; }
+            set { context = value; }
+        }
+
+        int page;
+        public int Page
+        {
+            get { return page; }
+            set { page = value; }
+        }
+
+        string descimg;
+        public string Descimg
+        {
+            get { return descimg; }
+            set { descimg = value; }
+        }
+
 
         public News()
         {
 
         }
-        public News(AMarker dot)
-        {
-            this.dot = dot;
-        }
+
+
+        
     }
 }
 
