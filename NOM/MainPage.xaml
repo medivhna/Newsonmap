@@ -29,7 +29,7 @@
 
             <Grid x:Name="grid1" Background="White" Opacity="0.7" Grid.RowSpan="2" Grid.Column="1" Visibility="Collapsed"></Grid>    
             <Image x:Name="img1" Source="listview.gif" Grid.Column ="1" Visibility="Collapsed"></Image>
-            <ListView x:Name="lv1" Grid.Column="1" Grid.Row="1" Visibility="Collapsed"></ListView>
+            <ListView x:Name="lv1" ItemsSource="{Binding}" Foreground="Black" Grid.Column="1" Grid.Row="1" IsItemClickEnabled="True" ItemClick="ListView_ItemClick" SelectionMode="None" Visibility="Collapsed" ></ListView>
             
 
         </Grid>

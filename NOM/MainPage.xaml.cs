@@ -9,9 +9,11 @@ using Com.AMap.Search.API.Result;
 using Microsoft.WindowsAzure.MobileServices;
 using Newtonsoft.Json;
 using System;
+using System.Net;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Xml;
 using System.Xml.Linq;
@@ -26,7 +28,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Data.Json;
 using 地图2.Common;
+using System.Runtime.Serialization.Json;
+using System.Threading.Tasks;
 
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
@@ -43,6 +48,13 @@ namespace 地图2
             map.Tapped += map_Tapped;
             Com.AMap.Maps.Api.AMapConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
             Com.AMap.Search.API.AMapSearchConfig.Key = "b746eb6d990e1c31daa6c5c64aeb41f4";
+
+            map.Zoom = 4;
+            map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
+
+            #region AddDistinct
+            distinct.Add("北京市", 1); distinct.Add("上海市", 0); distinct.Add("天津市", 0); distinct.Add("重庆", 0); distinct.Add("河北", 0); distinct.Add("辽宁", 0); distinct.Add("吉林", 0); distinct.Add("黑龙江", 0); distinct.Add("山西", 0); distinct.Add("四川", 0); distinct.Add("甘肃", 0); distinct.Add("陕西", 2); distinct.Add("河南", 0); distinct.Add("山东", 3); distinct.Add("湖南", 0); distinct.Add("湖北", 0); distinct.Add("江西", 0); distinct.Add("江苏", 0); distinct.Add("浙江", 0); distinct.Add("安徽", 0); distinct.Add("福建", 0); distinct.Add("广东", 0); distinct.Add("广西", 0); distinct.Add("贵州", 0); distinct.Add("云南", 0); distinct.Add("内蒙古", 0); distinct.Add("青海", 0); distinct.Add("海南", 0); distinct.Add("宁夏", 0); distinct.Add("新疆", 0); distinct.Add("西藏", 0); distinct.Add("香港", 0); distinct.Add("澳门", 0); distinct.Add("台湾", 0);
+            #endregion
         }
 
 
@@ -68,7 +80,7 @@ namespace 地图2
 
         // 通用项目定义
         List<News> news = new List<News>();
-        Dictionary<string,int> distinct = new Dictionary<string,int>();
+        Dictionary<string, int> distinct = new Dictionary<string, int>();
 
         private MobileServiceCollection<Item, Item> items;
         private IMobileServiceTable<Item> itemTable =
@@ -103,13 +115,6 @@ namespace 地图2
         {
             //await Authenticate();
 
-
-            map.Zoom = 4;
-            map.Center = new Com.AMap.Maps.Api.BaseTypes.ALngLat(108, 34);
-
-            #region AddDistinct
-            distinct.Add("北京市",1); distinct.Add("上海市",0); distinct.Add("天津市",0); distinct.Add("重庆",0); distinct.Add("河北",0); distinct.Add("辽宁",0); distinct.Add("吉林",0); distinct.Add("黑龙江",0); distinct.Add("山西",0); distinct.Add("四川",0); distinct.Add("甘肃",0); distinct.Add("陕西",2); distinct.Add("河南",0); distinct.Add("山东",3); distinct.Add("湖南",0); distinct.Add("湖北",0); distinct.Add("江西",0); distinct.Add("江苏",0); distinct.Add("浙江",0); distinct.Add("安徽",0); distinct.Add("福建",0); distinct.Add("广东",0); distinct.Add("广西",0); distinct.Add("贵州",0); distinct.Add("云南",0); distinct.Add("内蒙古",0); distinct.Add("青海",0); distinct.Add("海南",0); distinct.Add("宁夏",0); distinct.Add("新疆",0); distinct.Add("西藏",0); distinct.Add("香港",0); distinct.Add("澳门",0); distinct.Add("台湾",0);
-            #endregion
         }
 
 
@@ -124,16 +129,50 @@ namespace 地图2
             public bool Complete { get; set; }
         }
 
-
         // 为地图右键设置预留方法，未实现
         private void map_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
 
         }
 
+
+        //private async static Task<T> JsonDecode<T>(string Path)
+        //{
+        //    JsonSerializer json = new JsonSerializer();
+        //    json.NullValueHandling = NullValueHandling.Ignore;
+        //    json.ObjectCreationHandling = ObjectCreationHandling.Replace;
+        //    json.MissingMemberHandling = MissingMemberHandling.Ignore;
+        //    json.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+        //    WebRequest request = WebRequest.Create(Path);
+        //    request.Credentials = CredentialCache.DefaultCredentials;
+        //    HttpWebResponse response = (HttpWebResponse)await request.GetResponseAsync();
+        //    Stream dataStream = response.GetResponseStream();
+        //    StreamReader reader = new StreamReader(dataStream);
+        //    string responseFromServer = reader.ReadToEnd();
+        //    TextReader textReader = (TextReader)new StringReader(responseFromServer);
+        //    JsonTextReader jsreader = new JsonTextReader(textReader);
+
+        //    T result = (T)json.Deserialize(reader, typeof(T));
+        //    jsreader.Close();
+        //    return result;
+
+
+        //    //DataContractJsonSerializer json = new DataContractJsonSerializer(typeof(News));
+        //    //WebRequest request = WebRequest.Create(Path);
+        //    //request.Credentials = CredentialCache.DefaultCredentials;
+        //    //HttpWebResponse response = (HttpWebResponse) await request.GetResponseAsync();
+        //    //Stream dataStream = response.GetResponseStream();
+        //    //StreamReader reader = new StreamReader(dataStream);
+        //    //string responseFromServer = reader.ReadToEnd();
+        //    //T result = (T)json.ReadObject(dataStream);
+        //    //return result;
+        //}
+
         // 点击事件处理
+
         ALngLat picked;
         int locatId = 0;
+        List<News> data = new List<News>();
         private async void map_Tapped(object sender, TappedRoutedEventArgs e)
         {
             double[] x = new double[1];
@@ -169,22 +208,26 @@ namespace 地图2
                 string[] tmp = localPosition.ToArray();
 
                 locatId = distinct[search(tmp[0])];  // 只查找第一个地址的省份信息，准确度待考量
-                string peopleXMLPath = "http://newsonmap.chinacloudsites.cn/getNewsPage?page="+"0"+"&maxNums="+"5"+"&typeId="+(locatId.ToString())+"&pic="+"true"+"";
-                // test on news of Beijing
-                XDocument loadedData = XDocument.Load(peopleXMLPath);
 
-                var data = from query in loadedData.Descendants("item")
-                           select new News
-                           {
-                               Title = (string)query.Element("title"),
-                               Pubdate = (string)query.Element("pubDate"),
-                               TypeId = (int)query.Element("typeId"),
-                               Id = (string)query.Element("_id"),
-                               Page = (int)query.Element("page"),
-                               Descimg = (string)query.Element("descimg")
-                           };
+                string peopleJsonPath = "http://newsonmap.chinacloudsites.cn/getNewsPage?page=" + "0" + "&maxNums=" + "5" + "&typeId=" + (locatId.ToString()) + "&pic=" + "true" + "";
 
-                lv1.DataContext = data;
+                JsonSerializer json = new JsonSerializer();
+                json.NullValueHandling = NullValueHandling.Ignore;
+                json.ObjectCreationHandling = ObjectCreationHandling.Replace;
+                json.MissingMemberHandling = MissingMemberHandling.Ignore;
+                json.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+                WebRequest request = WebRequest.Create(peopleJsonPath);
+                request.Credentials = CredentialCache.DefaultCredentials;
+                HttpWebResponse response = (HttpWebResponse)await request.GetResponseAsync();
+                Stream dataStream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(dataStream);
+                string t1, t2;
+                string responseFromServer = reader.ReadToEnd();
+                t1=responseFromServer.Replace("{\"posts\":", "");
+                t2=t1.Replace(",\"page\":0}", "");
+                data = JsonConvert.DeserializeObject<List<News>>(t2);
+
+                lv1.ItemsSource = data;
 
             }
             else
@@ -193,12 +236,6 @@ namespace 地图2
                 grid1.Visibility = Visibility.Collapsed;
                 lv1.Visibility = Visibility.Collapsed;
             }
-        }
-
-        // 用于查找判断的函数
-        private bool findAll(News obj)
-        {
-            return obj.TypeId == locatId;
         }
 
         // searching
@@ -212,7 +249,7 @@ namespace 地图2
             return null;
         }
 
-         //点击listview，等待完成
+        //点击listview，等待完成
         public static News selected = new News();
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -220,10 +257,10 @@ namespace 地图2
             Frame.Navigate(typeof(newpage1));
         }
 
-    
-} 
-        
-    
 
     }
+
+
+
+}
 

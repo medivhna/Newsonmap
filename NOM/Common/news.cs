@@ -7,10 +7,20 @@ using Com.AMap.Maps;
 using Com.AMap.Maps.Api;
 using Com.AMap.Maps.Api.BaseTypes;
 using Com.AMap.Maps.Api.Overlays;
+using Newtonsoft.Json;
+using System.Runtime.Serialization.Json;
+
 namespace 地图2.Common
 {
+
     public class News
     {
+        string _id;
+        public string Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
 
         string title;
         public string Title
@@ -19,11 +29,18 @@ namespace 地图2.Common
             set { title = value; }
         }
 
-        string _id;
-        public string Id
+        string description;
+        public string Description
         {
-            get { return _id; }
-            set { _id = value; }
+            get { return description; }
+            set { description = value; }
+        }
+
+        int typeId;
+        public int TypeId
+        {
+            get { return typeId; }
+            set { typeId = value; }
         }
 
         string pubDate;
@@ -47,12 +64,7 @@ namespace 地图2.Common
             set { imgPath = value; }
         }
 
-        int typeId;
-        public int TypeId
-        {
-            get { return typeId; }
-            set { typeId = value; }
-        }
+
 
         string context;
         public string Context
@@ -81,7 +93,10 @@ namespace 地图2.Common
 
         }
 
-
+        public override string ToString()
+        {
+            return this.Title;
+        }
         
     }
 }
