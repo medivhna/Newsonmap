@@ -68,7 +68,7 @@
             <TextBlock x:Name="pageTitle"  Text="{Binding Title}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center"    Grid.Row="0"  HorizontalAlignment="Stretch"  />
       
-        <WebView x:Name="wv1" Source="{Binding Link}" HorizontalAlignment="Stretch"      Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch"   Grid.ColumnSpan="3" Grid.RowSpan="3"  />
+        <WebView x:Name="wv1" Source="{Binding Content}" HorizontalAlignment="Stretch"      Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch"   Grid.ColumnSpan="3" Grid.RowSpan="3"  />
     </Grid>
     
     

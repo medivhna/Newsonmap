@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-08-09T18:26:14.103</Modified>
+      <Modified>2014-08-10T05:56:13.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -206,11 +206,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
-      <Modified>2014-08-01T23:31:30.000</Modified>
+      <Modified>2014-08-10T05:52:20.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-08-09T18:26:14.447</Modified>
+      <Modified>2014-08-10T05:56:13.826</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

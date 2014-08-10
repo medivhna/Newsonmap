@@ -16,7 +16,7 @@ namespace 地图2.Common
     public class News
     {
         string _id;
-        public string Id
+        public string _Id
         {
             get { return _id; }
             set { _id = value; }
@@ -66,11 +66,11 @@ namespace 地图2.Common
 
 
 
-        string context;
-        public string Context
+        string content;
+        public string Content
         {
-            get { return context; }
-            set { context = value; }
+            get { return content; }
+            set { content = value; }
         }
 
         int page;

@@ -250,10 +250,24 @@ namespace 地图2
         }
 
         //点击listview，等待完成
-        public static News selected = new News();
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        News selected = new News();
+        public static News show = new News();
+        private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
             selected = e.ClickedItem as News;
+            string peopleJsonPath = "http://newsonmap.chinacloudsites.cn/newsRecord?userId="+"liux"+"&id="+selected._Id+"&jsonData="+"true";
+            JsonSerializer json = new JsonSerializer();
+            json.NullValueHandling = NullValueHandling.Ignore;
+            json.ObjectCreationHandling = ObjectCreationHandling.Replace;
+            json.MissingMemberHandling = MissingMemberHandling.Ignore;
+            json.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            WebRequest request = WebRequest.Create(peopleJsonPath);
+            request.Credentials = CredentialCache.DefaultCredentials;
+            HttpWebResponse response = (HttpWebResponse)await request.GetResponseAsync();
+            Stream dataStream = response.GetResponseStream();
+            StreamReader reader = new StreamReader(dataStream);
+            string responseFromServer = reader.ReadToEnd();
+            show = (News)JsonConvert.DeserializeObject(responseFromServer, typeof(News));
             Frame.Navigate(typeof(newpage1));
         }
 
