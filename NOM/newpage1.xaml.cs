@@ -52,7 +52,10 @@ namespace 地图2
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
             pageTitle.Text = 地图2.MainPage.show.Title;
-            wv1.NavigateToString(地图2.MainPage.show.Content);
+            if (地图2.MainPage.show.Content != null)
+                wv1.NavigateToString(地图2.MainPage.show.Content);
+            else
+                wv1.NavigateToString("无页面数据");
         }
 
         /// <summary>
