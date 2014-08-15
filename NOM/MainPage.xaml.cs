@@ -146,8 +146,7 @@ namespace 地图2
             img1.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             grid1.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
-
-
+  
         ALngLat picked;
         int locatId = 0;
         List<News> data = new List<News>();
