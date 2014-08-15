@@ -17,13 +17,13 @@
     <AppXManifest Include="E:\Project\git\NOM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-08-09T16:17:37.957</Modified>
+      <Modified>2014-08-15T12:41:40.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\地图2.exe">
       <PackagePath>地图2.exe</PackagePath>
-      <Modified>2014-08-10T14:54:47.827</Modified>
+      <Modified>2014-08-15T12:41:33.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -182,11 +182,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\定位.png">
       <PackagePath>定位.png</PackagePath>
-      <Modified>2014-08-03T15:17:26.585</Modified>
+      <Modified>2014-08-15T10:37:55.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
       <Modified>2014-08-01T23:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\UserDefault.xml">
+      <PackagePath>UserDefault.xml</PackagePath>
+      <Modified>2014-08-15T11:32:23.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\listview.gif">
       <PackagePath>listview.gif</PackagePath>
@@ -198,19 +202,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-08-01T23:31:30.000</Modified>
+      <Modified>2014-08-15T12:41:33.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-08-09T18:26:13.827</Modified>
+      <Modified>2014-08-15T12:41:33.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\newpage1.xbf">
       <PackagePath>newpage1.xbf</PackagePath>
-      <Modified>2014-08-10T14:54:47.609</Modified>
+      <Modified>2014-08-15T12:41:33.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-08-10T05:56:13.826</Modified>
+      <Modified>2014-08-15T12:41:35.605</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

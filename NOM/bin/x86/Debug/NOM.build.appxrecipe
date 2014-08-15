@@ -143,6 +143,9 @@
     <AppxPackagedFile Include="E:\Project\git\NOM\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\git\NOM\UserDefault.xml">
+      <PackagePath>UserDefault.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\git\NOM\listview.gif">
       <PackagePath>listview.gif</PackagePath>
     </AppxPackagedFile>
