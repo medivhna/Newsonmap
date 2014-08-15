@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE DataAccess[]>  
+<DataAccess>  
+  <appSettings>  
+    <add key="maxNewsNum" value="5" />  
+  </appSettings>  
+</DataAccess>  
